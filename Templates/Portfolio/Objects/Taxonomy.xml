@@ -33,7 +33,7 @@
           <pnp:Term Name="Landskap" ID="69f0b572-85ec-43df-8ac8-dcad79471fba" Description="" SourceTermId="69f0b572-85ec-43df-8ac8-dcad79471fba">
             <pnp:Terms />
           </pnp:Term>
-          <pnp:Term Name="Natur & miljø" ID="03b86a0f-14a9-4ad9-b46a-f2c3565fff38" Description="" SourceTermId="03b86a0f-14a9-4ad9-b46a-f2c3565fff38">
+          <pnp:Term Name="Natur ＆ miljø" ID="03b86a0f-14a9-4ad9-b46a-f2c3565fff38" Description="" SourceTermId="03b86a0f-14a9-4ad9-b46a-f2c3565fff38">
             <pnp:Terms />
           </pnp:Term>
           <pnp:Term Name="ROS" ID="5233fc30-68c8-4095-8507-49f183f1441d" Description="" SourceTermId="5233fc30-68c8-4095-8507-49f183f1441d">
@@ -104,7 +104,7 @@
           <pnp:Term Name="Prosjektstyring" ID="56f9d159-def2-4dfc-bddd-e88130783140" Description="" SourceTermId="56f9d159-def2-4dfc-bddd-e88130783140">
             <pnp:Terms />
           </pnp:Term>
-          <pnp:Term Name="SHA & YM" ID="a6e316e3-6efc-44ed-9904-0162fd71e0f6" Description="" SourceTermId="a6e316e3-6efc-44ed-9904-0162fd71e0f6">
+          <pnp:Term Name="SHA ＆ YM" ID="a6e316e3-6efc-44ed-9904-0162fd71e0f6" Description="" SourceTermId="a6e316e3-6efc-44ed-9904-0162fd71e0f6">
             <pnp:Terms />
           </pnp:Term>
           <pnp:Term Name="Økonomi" ID="a752165c-4331-48b9-a755-10672f83e747" Description="" SourceTermId="a752165c-4331-48b9-a755-10672f83e747">
