@@ -1,0 +1,157 @@
+{
+  "ContentTypes": [
+    {
+      "ID": "0x0100486B1F8AEA24486FBA1C1BA9146C360C",
+      "Name": "Sjekkpunkt",
+      "Description": "",
+      "Group": "Prosjektportalen innholdstyper",
+      "FieldRefs": [
+        {
+          "ID": "325543a5-815d-485d-a9a5-e0773ad762e9",
+          "Name": "GtProjectPhase"
+        },
+        {
+          "ID": "249527a3-c7f9-4ea5-9c33-f942c06c9215",
+          "Name": "GtChecklistStatus"
+        },
+        {
+          "ID": "509a6bfe-004e-41f9-bd73-9a0e02d5c4a7",
+          "Name": "GtComment"
+        },
+        {
+          "ID": "0e82c395-9ed9-43f9-871a-208215b18558",
+          "Name": "GtSortOrder"
+        },
+        {
+          "ID": "a37d88ef-1caa-4436-aabd-5bbd21aaaff7",
+          "Name": "GtVeiAnchored"
+        }
+      ]
+    }
+  ],
+  "Lists": [
+    {
+      "Title": "Fasesjekkliste",
+      "Description": "",
+      "Template": 100,
+      "ContentTypesEnabled": true,
+      "RemoveExistingContentTypes": true,
+      "ContentTypeBindings": [
+        {
+          "ContentTypeID": "0x0100486B1F8AEA24486FBA1C1BA9146C360C"
+        }
+      ],
+      "AdditionalSettings": {
+        "EnableVersioning": true
+      },
+      "Views": [
+        {
+          "Title": "Alle elementer",
+          "ViewFields": [
+            "GtSortOrder",
+            "LinkTitle",
+            "GtProjectPhase",
+            "GtChecklistStatus",
+            "GtComment",
+            "GtVeiAnchored"
+          ],
+          "AdditionalSettings": {
+            "RowLimit": 50,
+            "ViewQuery": "<OrderBy><FieldRef Name=\"GtSortOrder\" /><FieldRef Name=\"ID\" /></OrderBy><Where><Neq><FieldRef Name=\"GtChecklistStatus\" /><Value Type=\"Text\">Arkivert</Value></Neq>\n</Where>"
+          }
+        },
+        {
+          "Title": "Arkivert",
+          "ViewFields": [
+            "GtSortOrder",
+            "LinkTitle",
+            "GtProjectPhase",
+            "GtComment",
+            "GtVeiAnchored"
+          ],
+          "AdditionalSettings": {
+            "RowLimit": 50,
+            "ViewQuery": "<OrderBy><FieldRef Name=\"GtSortOrder\" /><FieldRef Name=\"ID\" /></OrderBy><Where><Eq><FieldRef Name=\"GtChecklistStatus\" /><Value Type=\"Text\">Arkivert</Value></Eq>\n</Where>"
+          }
+        },
+        {
+          "Title": "Per status",
+          "ViewFields": [
+            "GtSortOrder",
+            "LinkTitle",
+            "GtProjectPhase",
+            "GtComment",
+            "GtVeiAnchored"
+          ],
+          "AdditionalSettings": {
+            "RowLimit": 50,
+            "ViewQuery": "<GroupBy Collapse=\"TRUE\" GroupLimit=\"30\"><FieldRef Name=\"GtChecklistStatus\" Ascending=\"FALSE\" />\n</GroupBy>\n<OrderBy><FieldRef Name=\"GtSortOrder\" /><FieldRef Name=\"ID\" />\n</OrderBy>"
+          }
+        }
+      ]
+    },
+    {
+      "Title": "Dokumenter",
+      "Description": "",
+      "Template": 101,
+      "ContentTypesEnabled": false,
+      "AdditionalSettings": {
+        "EnableVersioning": true
+      },
+      "FieldRefs": [
+        {
+          "ID": "325543a5-815d-485d-a9a5-e0773ad762e9",
+          "Name": "GtProjectPhase",
+          "Required": false,
+          "DisplayName": "Fase"
+        },
+        {
+          "ID": "8f785c45-ca9f-444c-958a-89f74a1a7143",
+          "Name": "GtVeiSubject",
+          "Required": false,
+          "DisplayName": "Fag"
+        },
+        {
+          "ID": "e5de159b-aadd-40d2-9c20-61d4604829bb",
+          "Name": "GtVeiTopic",
+          "Required": false,
+          "DisplayName": "Emne"
+        }
+      ],
+      "Views": [
+        {
+          "Title": "Alle dokumenter",
+          "ViewFields": [
+            "DocIcon",
+            "LinkFilename",
+            "GtProjectPhase",
+            "GtVeiSubject",
+            "GtVeiTopic",
+            "Modified",
+            "Editor"
+          ],
+          "AdditionalSettings": {
+            "RowLimit": 30,
+            "Paged": true,
+            "ViewQuery": "<OrderBy><FieldRef Name='LinkFilename' /></OrderBy>"
+          }
+        },
+        {
+          "Title": "Gjeldende fase",
+          "ViewFields": [
+            "DocIcon",
+            "LinkFilename",
+            "Modified",
+            "Editor"
+          ],
+          "AdditionalSettings": {
+            "RowLimit": 30,
+            "Paged": true,
+            "ViewQuery": "<OrderBy><FieldRef Name='LinkFilename' /></OrderBy>",
+            "Scope": 1
+          }
+        }
+      ]
+    }
+  ]
+}

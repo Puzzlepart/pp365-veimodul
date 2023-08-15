@@ -7,8 +7,8 @@
       <pnp:DataValue FieldName="GtIsProgram">False</pnp:DataValue>
       <pnp:DataValue FieldName="IconName">Car</pnp:DataValue>
       <pnp:DataValue FieldName="GtProjectPhaseTermId">7ccff67b-acca-4abb-8426-c6a38ec69233</pnp:DataValue>
-      <pnp:DataValue FieldName="GtProjectContentType">0x0100805E9E4FEAAB4F0EABAB2600D30DB70C01</pnp:DataValue>
-      <pnp:DataValue FieldName="GtProjectStatusContentType">0x010022252E35737A413FB56A1BA53862F6D501</pnp:DataValue>
+      <pnp:DataValue FieldName="GtProjectContentType">0x0100805E9E4FEAAB4F0EABAB2600D30DB70CVE</pnp:DataValue>
+      <pnp:DataValue FieldName="GtProjectStatusContentType">0x010022252E35737A413FB56A1BA53862F6D5</pnp:DataValue>
       <pnp:DataValue FieldName="IsHiddenTemplate">False</pnp:DataValue>
       <pnp:DataValue FieldName="GtProjectColumns">Kolonner for Prosjektportalen (Prosjekt)</pnp:DataValue>
       <pnp:DataValue FieldName="GtProjectCustomColumns">Egendefinerte kolonner for Prosjektportalen</pnp:DataValue>
