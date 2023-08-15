@@ -1,0 +1,14 @@
+<pnp:ListInstance Title="Porteføljevisninger" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Porteføljevisninger" Hidden="true" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="5000" DraftVersionVisibility="0" ContentTypesEnabled="true" RemoveExistingContentTypes="true" EnableFolderCreation="false" EnableAttachments="false" 
+    xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+    <pnp:DataRows KeyColumn="Title" UpdateBehavior="Skip">
+        <pnp:DataRow>
+            <pnp:DataValue FieldName="GtSortOrder">100</pnp:DataValue>
+            <pnp:DataValue FieldName="Title">Veiprosjekter</pnp:DataValue>
+            <pnp:DataValue FieldName="GtSearchQuery">DepartmentId:{{sitecollectionid}} ContentTypeId:0x0100805E9E4FEAAB4F0EABAB2600D30DB70C*</pnp:DataValue>
+            <pnp:DataValue FieldName="GtPortfolioIsDefaultView">True</pnp:DataValue>
+            <pnp:DataValue FieldName="GtPortfolioFabricIcon">Car</pnp:DataValue>
+            <pnp:DataValue FieldName="GtPortfolioGroupBy" />
+        </pnp:DataRow>
+    </pnp:DataRows>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/Lists/Security/DefaultSecurity.xml" />
+</pnp:ListInstance>

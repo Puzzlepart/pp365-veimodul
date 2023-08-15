@@ -1,0 +1,44 @@
+<pnp:ListInstance Title="Prosjektkolonner" Description="" DocumentTemplate="" TemplateType="100" Hidden="true" Url="Lists/Prosjektkolonner" EnableVersioning="true" EnableAttachments="false" MinorVersionLimit="0" MaxVersionLimit="5000" DraftVersionVisibility="0" ContentTypesEnabled="true" RemoveExistingContentTypes="true" EnableFolderCreation="false"
+  xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+  <pnp:DataRows KeyColumn="Title" UpdateBehavior="Overwrite">
+    <pnp:DataRow>
+      <pnp:DataValue FieldName="GtSortOrder">350</pnp:DataValue>
+      <pnp:DataValue FieldName="Title">Prosjekteringsleder</pnp:DataValue>
+      <pnp:DataValue FieldName="GtInternalName">GtVeiPlanningManager</pnp:DataValue>
+      <pnp:DataValue FieldName="GtManagedProperty"></pnp:DataValue>
+      <pnp:DataValue FieldName="GtFieldDataType">User</pnp:DataValue>
+      <pnp:DataValue FieldName="GtColMinWidth">100</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldProjectStatus">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldFrontpage">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldPortfolio">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtIsRefinable">False</pnp:DataValue>
+      <pnp:DataValue FieldName="GtIsGroupable">False</pnp:DataValue>
+    </pnp:DataRow>
+    <pnp:DataRow>
+      <pnp:DataValue FieldName="GtSortOrder">340</pnp:DataValue>
+      <pnp:DataValue FieldName="Title">Planleggingsleder</pnp:DataValue>
+      <pnp:DataValue FieldName="GtInternalName">GtVeiProjectingManager</pnp:DataValue>
+      <pnp:DataValue FieldName="GtManagedProperty"></pnp:DataValue>
+      <pnp:DataValue FieldName="GtFieldDataType">User</pnp:DataValue>
+      <pnp:DataValue FieldName="GtColMinWidth">100</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldProjectStatus">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldFrontpage">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldPortfolio">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtIsRefinable">False</pnp:DataValue>
+      <pnp:DataValue FieldName="GtIsGroupable">False</pnp:DataValue>
+    </pnp:DataRow>
+    <pnp:DataRow>
+      <pnp:DataValue FieldName="GtSortOrder">360</pnp:DataValue>
+      <pnp:DataValue FieldName="Title">Byggeleder</pnp:DataValue>
+      <pnp:DataValue FieldName="GtInternalName">GtVeiConstructionManager</pnp:DataValue>
+      <pnp:DataValue FieldName="GtManagedProperty"></pnp:DataValue>
+      <pnp:DataValue FieldName="GtFieldDataType">User</pnp:DataValue>
+      <pnp:DataValue FieldName="GtColMinWidth">100</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldProjectStatus">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldFrontpage">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtShowFieldPortfolio">True</pnp:DataValue>
+      <pnp:DataValue FieldName="GtIsRefinable">False</pnp:DataValue>
+      <pnp:DataValue FieldName="GtIsGroupable">False</pnp:DataValue>
+    </pnp:DataRow>
+  </pnp:DataRows>
+</pnp:ListInstance>

@@ -1,0 +1,117 @@
+<pnp:TermGroups xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+  <pnp:TermGroup Name="Prosjektportalen" ID="c56bb677-f782-4cf6-a6d6-17685ee9f19d" Description="" UpdateBehavior="Overwrite">
+    <pnp:TermSets>
+      <pnp:TermSet Name="Fag (Vei)" ID="85485162-b98a-4097-8364-34ad5468fc4f" Description="">
+        <pnp:Terms>
+          <pnp:Term Name="Andre tekniske anlegg" ID="6189c95d-aacf-4ee4-b16d-9ab6b2af1fbc" Description="" SourceTermId="6189c95d-aacf-4ee4-b16d-9ab6b2af1fbc">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Anslag" ID="4888ca8b-1acd-487c-82fd-a29606deb8b1" Description="" SourceTermId="4888ca8b-1acd-487c-82fd-a29606deb8b1">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Drenering" ID="c198d441-138d-4a0e-8b5e-f15430ad8a56" Description="" SourceTermId="c198d441-138d-4a0e-8b5e-f15430ad8a56">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Elektro" ID="fb6c7606-4626-4a35-8468-1cb38e7cd4cc" Description="" SourceTermId="fb6c7606-4626-4a35-8468-1cb38e7cd4cc">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Geologi og geoteknikk" ID="10bd7021-aed0-4dbc-b1de-7966b7307177" Description="" SourceTermId="10bd7021-aed0-4dbc-b1de-7966b7307177">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Grunnerverv" ID="1acbd38f-f084-4130-b263-127de0141c14" Description="" SourceTermId="1acbd38f-f084-4130-b263-127de0141c14">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Konstruksjoner" ID="e503ab3e-c6ad-4288-97d3-aca1af78e65b" Description="" SourceTermId="e503ab3e-c6ad-4288-97d3-aca1af78e65b">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Kulturminner" ID="f2480a9e-24c2-43d8-a4d9-6bf20dbe87d7" Description="" SourceTermId="f2480a9e-24c2-43d8-a4d9-6bf20dbe87d7">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Landmåling" ID="c6f956c5-995f-4bfc-af45-ee4ef372e2c4" Description="" SourceTermId="c6f956c5-995f-4bfc-af45-ee4ef372e2c4">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Landskap" ID="69f0b572-85ec-43df-8ac8-dcad79471fba" Description="" SourceTermId="69f0b572-85ec-43df-8ac8-dcad79471fba">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Natur & miljø" ID="03b86a0f-14a9-4ad9-b46a-f2c3565fff38" Description="" SourceTermId="03b86a0f-14a9-4ad9-b46a-f2c3565fff38">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="ROS" ID="5233fc30-68c8-4095-8507-49f183f1441d" Description="" SourceTermId="5233fc30-68c8-4095-8507-49f183f1441d">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Signal" ID="6fd9b07e-430c-4149-821d-31e71d910276" Description="" SourceTermId="6fd9b07e-430c-4149-821d-31e71d910276">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Støy" ID="4fd8949f-de2c-4c3f-9270-683de7fd960e" Description="" SourceTermId="4fd8949f-de2c-4c3f-9270-683de7fd960e">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Teknisk tegning" ID="cd870121-692c-49b4-9e3a-cb7c8844b486" Description="" SourceTermId="cd870121-692c-49b4-9e3a-cb7c8844b486">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Trafikk" ID="50d2701b-4f84-49eb-8ab9-a8eb3995f9a1" Description="" SourceTermId="50d2701b-4f84-49eb-8ab9-a8eb3995f9a1">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="TS" ID="7f52896a-076f-4b91-ab8b-24666c590ab5" Description="" SourceTermId="7f52896a-076f-4b91-ab8b-24666c590ab5">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Tunnel" ID="73b2afcc-4293-4259-870a-908c7a004e2b" Description="" SourceTermId="73b2afcc-4293-4259-870a-908c7a004e2b">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="VA" ID="1d2c5dbf-d0b4-47ed-a21a-b3e8aad3a966" Description="" SourceTermId="1d2c5dbf-d0b4-47ed-a21a-b3e8aad3a966">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Veg" ID="5ee9a448-7a1f-4cf8-a238-d938b62a1057" Description="" SourceTermId="5ee9a448-7a1f-4cf8-a238-d938b62a1057">
+            <pnp:Terms />
+          </pnp:Term>
+        </pnp:Terms>
+      </pnp:TermSet>
+      <pnp:TermSet Name="Fase (Vei)" ID="7ccff67b-acca-4abb-8426-c6a38ec69233" Description="">
+        <pnp:Terms>
+          <pnp:Term Name="Planlegge" ID="02abfd34-5d2d-4acb-b9e0-b76d3832ac9b" Description="" CustomSortOrder="1" SourceTermId="02abfd34-5d2d-4acb-b9e0-b76d3832ac9b">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Prosjektere" ID="37da01eb-95dd-4d3e-9d48-44e1edb825d4" Description="" CustomSortOrder="2" SourceTermId="37da01eb-95dd-4d3e-9d48-44e1edb825d4">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Bygge" ID="bfb5fe7c-7013-4883-a1db-1ce5b9801c2f" Description="" CustomSortOrder="3" SourceTermId="bfb5fe7c-7013-4883-a1db-1ce5b9801c2f">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Avslutte" ID="91a42992-cc2c-4d0f-944d-88ae39aba7cf" Description="" CustomSortOrder="4" SourceTermId="91a42992-cc2c-4d0f-944d-88ae39aba7cf">
+            <pnp:Terms />
+          </pnp:Term>
+        </pnp:Terms>
+      </pnp:TermSet>
+      <pnp:TermSet Name="Emne (Vei)" ID="f475345f-ad4e-41ae-bfc0-0cee934b3f2b" Description="">
+        <pnp:Terms>
+          <pnp:Term Name="Bildedokumentasjon" ID="09130034-a0e8-4033-ac3b-467a3d83abdd" Description="" SourceTermId="09130034-a0e8-4033-ac3b-467a3d83abdd">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Fag" ID="b3b825e7-e75c-4da5-af19-9e173efec148" Description="" SourceTermId="b3b825e7-e75c-4da5-af19-9e173efec148">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Grunnlag" ID="2b6586c3-1e36-4bb2-be00-8585153438ee" Description="" SourceTermId="2b6586c3-1e36-4bb2-be00-8585153438ee">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Kvalitet" ID="b4698f69-8379-41c1-8f1f-93976c580d77" Description="" SourceTermId="b4698f69-8379-41c1-8f1f-93976c580d77">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Leveranse" ID="03e3f55f-88af-4c16-9b8e-df84c75865c8" Description="" SourceTermId="03e3f55f-88af-4c16-9b8e-df84c75865c8">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Møter" ID="d3dba7ec-8d9e-4b6a-9896-d539a77f3137" Description="" SourceTermId="d3dba7ec-8d9e-4b6a-9896-d539a77f3137">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Prosjektstyring" ID="56f9d159-def2-4dfc-bddd-e88130783140" Description="" SourceTermId="56f9d159-def2-4dfc-bddd-e88130783140">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="SHA & YM" ID="a6e316e3-6efc-44ed-9904-0162fd71e0f6" Description="" SourceTermId="a6e316e3-6efc-44ed-9904-0162fd71e0f6">
+            <pnp:Terms />
+          </pnp:Term>
+          <pnp:Term Name="Økonomi" ID="a752165c-4331-48b9-a755-10672f83e747" Description="" SourceTermId="a752165c-4331-48b9-a755-10672f83e747">
+            <pnp:Terms />
+          </pnp:Term>
+        </pnp:Terms>
+      </pnp:TermSet>
+    </pnp:TermSets>
+  </pnp:TermGroup>
+</pnp:TermGroups>
