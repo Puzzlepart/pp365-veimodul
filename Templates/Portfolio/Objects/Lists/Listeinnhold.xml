@@ -3,23 +3,31 @@
   <pnp:DataRows KeyColumn="Title" UpdateBehavior="Overwrite">
     <pnp:DataRow>
       <pnp:DataValue FieldName="Title">Fasesjekkpunkter Vei</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Fasesjekkpunkter for veiprosjekter</pnp:DataValue>
       <pnp:DataValue FieldName="GtLccSourceList">Fasesjekkliste Vei</pnp:DataValue>
       <pnp:DataValue FieldName="GtLccDestinationList">Fasesjekkliste</pnp:DataValue>
-      <pnp:DataValue FieldName="GtLccDestinationLibrary" />
       <pnp:DataValue FieldName="GtLccFields">GtSortOrder,Title,GtProjectPhase,GtAnchored</pnp:DataValue>
-      <pnp:DataValue FieldName="GtLccDefault">False</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Fasesjekkpunkter for veiprosjekter</pnp:DataValue>
-      <pnp:DataValue FieldName="GtLccHidden">False</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccDefault">0</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccHidden">0</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
+      <pnp:DataValue FieldName="ContentTypeId">0x0100B8B4EE61A547B247B49CFC21B67D5B7D01</pnp:DataValue>
       <pnp:DataValue FieldName="Title">Planneroppgaver Vei</pnp:DataValue>
-      <pnp:DataValue FieldName="GtLccSourceList">Planneroppgaver Vei</pnp:DataValue>
-      <pnp:DataValue FieldName="GtLccDestinationList" />
-      <pnp:DataValue FieldName="GtLccDestinationLibrary" />
-      <pnp:DataValue FieldName="GtLccFields">N/A</pnp:DataValue>
-      <pnp:DataValue FieldName="GtLccDefault">False</pnp:DataValue>
       <pnp:DataValue FieldName="GtDescription">Prosjektoppgaver for veiprosjekter</pnp:DataValue>
-      <pnp:DataValue FieldName="GtLccHidden">False</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccSourceList">Planneroppgaver Vei</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccFields">-</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccDefault">0</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccHidden">0</pnp:DataValue>
+    <pnp:DataValue FieldName="GtPlannerName">Veiplan</pnp:DataValue>
+    </pnp:DataRow>
+    <pnp:DataRow>
+        <pnp:DataValue FieldName="Title">Standarddokumenter Vei</pnp:DataValue>
+        <pnp:DataValue FieldName="GtDescription">Standarddokumenter for veiprosjekter.</pnp:DataValue>
+        <pnp:DataValue FieldName="GtLccSourceList">Standarddokumenter Vei</pnp:DataValue>
+        <pnp:DataValue FieldName="GtLccDestinationList">Dokumenter</pnp:DataValue>
+        <pnp:DataValue FieldName="GtLccFields">Title,GtProjectPhase,</pnp:DataValue>
+        <pnp:DataValue FieldName="GtLccDefault">0</pnp:DataValue>
+        <pnp:DataValue FieldName="GtLccHidden">0</pnp:DataValue>
     </pnp:DataRow>
   </pnp:DataRows>
 </pnp:ListInstance>
