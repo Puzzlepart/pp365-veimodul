@@ -6,7 +6,7 @@
       <pnp:DataValue FieldName="GtDescription">Fasesjekkpunkter for veiprosjekter</pnp:DataValue>
       <pnp:DataValue FieldName="GtLccSourceList">Fasesjekkliste Vei</pnp:DataValue>
       <pnp:DataValue FieldName="GtLccDestinationList">Fasesjekkliste</pnp:DataValue>
-      <pnp:DataValue FieldName="GtLccFields">GtSortOrder,Title,GtProjectPhase,GtAnchored</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccFields">GtSortOrder,Title,GtProjectPhase,GtVeiAnchored</pnp:DataValue>
       <pnp:DataValue FieldName="GtLccDefault">0</pnp:DataValue>
       <pnp:DataValue FieldName="GtLccHidden">0</pnp:DataValue>
     </pnp:DataRow>
