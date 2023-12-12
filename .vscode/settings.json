@@ -1,0 +1,19 @@
+{
+    "files.exclude": {
+        "release": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/lib": true,
+        "**/dist": true,
+        "**/.dist": true,
+        "**/temp": true,
+        "**/tmp": true,
+        "**/common": true,
+        "README.md": true
+    },
+    "files.associations": {
+        "*.txt": "json",
+        ".README": "markdown"
+    },
+}
