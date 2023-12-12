@@ -28,14 +28,16 @@
   </pnp:Views>
   <pnp:FieldRefs>
     <pnp:FieldRef ID="0e82c395-9ed9-43f9-871a-208215b18558" Name="GtSortOrder" DisplayName="Sorteringsrekkefølge" />
+    <pnp:FieldRef ID="c70ca705-d503-4d3c-a28e-078e7d61c4c2" Name="GtDataRowUniqueKey" DisplayName="Unik datanøkkel" />
   </pnp:FieldRefs>
-  <pnp:DataRows KeyColumn="GtSortOrder" UpdateBehavior="Overwrite">
+  <pnp:DataRows KeyColumn="GtDataRowUniqueKey" UpdateBehavior="Overwrite">
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">00</pnp:DataValue>
       <pnp:DataValue FieldName="Title">Ingen fase</pnp:DataValue>
       <pnp:DataValue FieldName="GtDescription"></pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Ingen fase</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">10</pnp:DataValue>
@@ -46,6 +48,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">20</pnp:DataValue>
@@ -56,6 +59,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">30</pnp:DataValue>
@@ -66,6 +70,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">40</pnp:DataValue>
@@ -76,6 +81,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">50</pnp:DataValue>
@@ -86,6 +92,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">60</pnp:DataValue>
@@ -96,6 +103,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">70</pnp:DataValue>
@@ -106,6 +114,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">80</pnp:DataValue>
@@ -116,6 +125,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">90</pnp:DataValue>
@@ -126,6 +136,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">100</pnp:DataValue>
@@ -136,6 +147,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">110</pnp:DataValue>
@@ -146,6 +158,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Møte;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">120</pnp:DataValue>
@@ -156,6 +169,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">130</pnp:DataValue>
@@ -166,6 +180,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">140</pnp:DataValue>
@@ -176,6 +191,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">150</pnp:DataValue>
@@ -186,6 +202,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">160</pnp:DataValue>
@@ -196,6 +213,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">170</pnp:DataValue>
@@ -206,6 +224,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">180</pnp:DataValue>
@@ -216,6 +235,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">190</pnp:DataValue>
@@ -226,6 +246,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">200</pnp:DataValue>
@@ -236,6 +257,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">210</pnp:DataValue>
@@ -246,6 +268,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">220</pnp:DataValue>
@@ -256,6 +279,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">230</pnp:DataValue>
@@ -266,6 +290,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">240</pnp:DataValue>
@@ -276,6 +301,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">250</pnp:DataValue>
@@ -286,6 +312,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">260</pnp:DataValue>
@@ -296,6 +323,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">270</pnp:DataValue>
@@ -306,6 +334,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">280</pnp:DataValue>
@@ -316,6 +345,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">290</pnp:DataValue>
@@ -326,6 +356,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">300</pnp:DataValue>
@@ -336,6 +367,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">310</pnp:DataValue>
@@ -346,6 +378,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">320</pnp:DataValue>
@@ -356,6 +389,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">330</pnp:DataValue>
@@ -366,6 +400,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">340</pnp:DataValue>
@@ -376,6 +411,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">350</pnp:DataValue>
@@ -386,6 +422,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">360</pnp:DataValue>
@@ -396,6 +433,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">370</pnp:DataValue>
@@ -406,6 +444,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">380</pnp:DataValue>
@@ -416,6 +455,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">390</pnp:DataValue>
@@ -426,6 +466,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">400</pnp:DataValue>
@@ -436,6 +477,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">410</pnp:DataValue>
@@ -446,6 +488,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">420</pnp:DataValue>
@@ -456,6 +499,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">430</pnp:DataValue>
@@ -466,6 +510,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">440</pnp:DataValue>
@@ -476,6 +521,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">450</pnp:DataValue>
@@ -486,6 +532,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;KRAV;Prosjektere;Planlegge;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">460</pnp:DataValue>
@@ -496,6 +543,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">470</pnp:DataValue>
@@ -506,6 +554,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">480</pnp:DataValue>
@@ -516,6 +565,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">490</pnp:DataValue>
@@ -526,6 +576,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">500</pnp:DataValue>
@@ -536,6 +587,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">510</pnp:DataValue>
@@ -546,6 +598,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">520</pnp:DataValue>
@@ -556,6 +609,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">530</pnp:DataValue>
@@ -566,6 +620,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">540</pnp:DataValue>
@@ -576,6 +631,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">550</pnp:DataValue>
@@ -586,6 +642,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">560</pnp:DataValue>
@@ -596,6 +653,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">570</pnp:DataValue>
@@ -606,6 +664,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">580</pnp:DataValue>
@@ -616,6 +675,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">590</pnp:DataValue>
@@ -626,6 +686,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">600</pnp:DataValue>
@@ -636,6 +697,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">610</pnp:DataValue>
@@ -646,6 +708,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;KRAV</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">620</pnp:DataValue>
@@ -656,6 +719,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">630</pnp:DataValue>
@@ -666,6 +730,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">640</pnp:DataValue>
@@ -676,6 +741,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">650</pnp:DataValue>
@@ -686,6 +752,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">660</pnp:DataValue>
@@ -696,6 +763,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">670</pnp:DataValue>
@@ -706,6 +774,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">680</pnp:DataValue>
@@ -716,6 +785,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">690</pnp:DataValue>
@@ -726,6 +796,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">700</pnp:DataValue>
@@ -736,6 +807,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">710</pnp:DataValue>
@@ -746,6 +818,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">720</pnp:DataValue>
@@ -756,6 +829,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">730</pnp:DataValue>
@@ -766,6 +840,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">740</pnp:DataValue>
@@ -776,6 +851,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">750</pnp:DataValue>
@@ -786,6 +862,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">760</pnp:DataValue>
@@ -796,6 +873,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">770</pnp:DataValue>
@@ -806,6 +884,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">780</pnp:DataValue>
@@ -816,6 +895,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">790</pnp:DataValue>
@@ -826,6 +906,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">800</pnp:DataValue>
@@ -836,6 +917,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">810</pnp:DataValue>
@@ -846,6 +928,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">820</pnp:DataValue>
@@ -856,6 +939,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">830</pnp:DataValue>
@@ -866,6 +950,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">840</pnp:DataValue>
@@ -876,6 +961,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">850</pnp:DataValue>
@@ -886,6 +972,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">860</pnp:DataValue>
@@ -896,6 +983,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">870</pnp:DataValue>
@@ -906,6 +994,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">880</pnp:DataValue>
@@ -916,6 +1005,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">890</pnp:DataValue>
@@ -926,6 +1016,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">900</pnp:DataValue>
@@ -936,6 +1027,7 @@
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
     </pnp:DataRow>
   </pnp:DataRows>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/Lists/Security/DefaultSecurity.xml" />
