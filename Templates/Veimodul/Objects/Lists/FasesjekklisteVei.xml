@@ -85,7 +85,7 @@
             <pnp:DataValue FieldName="GtComment">Ta kontakt med BIM ansvarlige før prosjektbestillingen signeres for å vurdere hvor mye BIM som trengs i prosjektet. Vil det trenges opplæring i prosjektgruppa?</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">10</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">d8d7484d-d677-470d-b710-253e2d716a24</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosjektbestilling</pnp:DataValue>
@@ -94,7 +94,7 @@
             <pnp:DataValue FieldName="GtComment">Ved oppstart av planarbeidet</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">20</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">d37dab8e-f54a-42b3-8c58-42894b2d2f4c</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Sentralt styringsdokument (SDD)</pnp:DataValue>
@@ -103,7 +103,7 @@
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet. Skal løpende oppdateres ved endringer.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">30</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">956862b4-fcb3-42c3-9bdf-c660a6e74805</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Kvalitetsplan inkludert SHA og YM</pnp:DataValue>
@@ -112,7 +112,7 @@
             <pnp:DataValue FieldName="GtComment">Utarbeides i startfase av prosjektet. Ved bruk av konsulent, skal både konsulent og RFK utarbeide egne kvalitetsplaner. SHA utgår i planfase, YM og ROS kan inkluderes som kapittel i planbeskrivelse.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">40</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">12ab5eeb-4c07-4f8b-be49-d48817740f4b</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Byggherrens representant</pnp:DataValue>
@@ -121,7 +121,7 @@
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet skal skriftlig avtale signeres. Prosjektleder skal tildeles rollen.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">50</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">Byggherreforskriften</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">70ad2a44-5f1b-43fc-b040-df7b74b23547</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Koordinator planlegging</pnp:DataValue>
@@ -130,7 +130,7 @@
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet skal skriftlig avtale signeres. Planleggingsleder tildeles rollen.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">60</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">Byggherreforskriften</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">44752550-7b2f-411a-beb9-b92d670239fd</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">YM-koordinator</pnp:DataValue>
@@ -139,7 +139,7 @@
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet skal YM-koordinator utnevnes. Planleggingsleder tildeles rollen</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">70</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">89cbae6e-3d8b-4c09-bbce-177f929fbeb3</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">TS Revisjon</pnp:DataValue>
@@ -148,7 +148,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">80</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">0816822f-a945-490f-9d20-89fde3003386</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessevaluering planlegging</pnp:DataValue>
@@ -157,7 +157,7 @@
             <pnp:DataValue FieldName="GtComment">Ved avslutning av planfasen, og før overlevering til neste fase skal en en faseevaluering gjøres.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">90</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">24233a0e-dfa9-40a8-a268-1dba43bf98c9</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Opprette BIM kontakt</pnp:DataValue>
@@ -166,7 +166,7 @@
             <pnp:DataValue FieldName="GtComment">Ta kontakt med BIM ansvarlige før prosjektbestillingen oppdateres for å vurdere hvor mye BIM som trengs i prosjektet. Vil det trenges opplæring i prosjektgruppa?</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">100</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">07b90bed-f6b7-4cb7-a42a-cd1d206626cd</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Sjekk prosjektbestillingen</pnp:DataValue>
@@ -175,7 +175,7 @@
             <pnp:DataValue FieldName="GtComment">Sjekk om prosjektet har relevant og godkjent prosjektbestilling</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">110</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">930b586d-031d-4505-b1b6-4f5c3cb777ff</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Oppdatere sentralt stryingsdokument (SSD)</pnp:DataValue>
@@ -184,7 +184,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">120</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">8f0bbdd3-efdb-4469-837f-3b4cc5a4e155</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Oppdatere kvalitetsplan</pnp:DataValue>
@@ -193,7 +193,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">130</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">18051e4c-56ce-48cf-92f6-e59144bd7b3f</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessovergang til prosjektering</pnp:DataValue>
@@ -202,7 +202,7 @@
             <pnp:DataValue FieldName="GtComment">Møte skal avholdes for å gjennomgå læringspunkt fra "prosessevaluering planlegging", gå gjennom fasesjekklista til planleggingsfasen og offisielt skifte fase til "prosjektering"</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">140</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">f4e639aa-7f94-4d5f-b49f-6e8139ce49a5</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Byggherrens representant</pnp:DataValue>
@@ -211,7 +211,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">150</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">Byggherreforskriften</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">ab6da151-2f3c-4771-8e27-76790e96ee4c</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Koordinator prosjektering (KP)</pnp:DataValue>
@@ -220,7 +220,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">160</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">Byggherreforskriften</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">46e86291-f40a-4bda-9ce8-1870dd115573</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">YM-koordinator</pnp:DataValue>
@@ -229,7 +229,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">170</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">8c4ad551-9292-457e-a94d-98f486c88b9d</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Politisk godkjenning</pnp:DataValue>
@@ -238,7 +238,7 @@
             <pnp:DataValue FieldName="GtComment">Prosjekt over 100 millioner inkl.mva må godkjennes i bl.a. fylkestinget, dette må være på plass før et prosjekt kan lyses ut.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">180</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">000f899f-1f66-47b8-967d-c01d1a79635b</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Kvalitetssikre konkurransegrunnlag og prosjekt</pnp:DataValue>
@@ -247,7 +247,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">190</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">b2223fe7-f85e-4cd6-b1f1-4b67eb377f02</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessevaluering prosjektering</pnp:DataValue>
@@ -256,7 +256,7 @@
             <pnp:DataValue FieldName="GtComment">Ikkje faseevaluering</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">200</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">468c942e-5544-4efd-b71c-aed0a972114e</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Opprette BIM kontakt</pnp:DataValue>
@@ -265,7 +265,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">210</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">6fa9e43e-7965-4d04-aa47-7281d34cc954</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Oppdatert prosjektbestilling</pnp:DataValue>
@@ -274,7 +274,7 @@
             <pnp:DataValue FieldName="GtComment">Har forutsetningene endret seg ?</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">220</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">7d828f14-088f-407a-a65c-c88320ecf106</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Oppdatere sentralt styringsdokument (SSD)</pnp:DataValue>
@@ -283,7 +283,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">230</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">de598a64-b01c-48cd-95cb-4afdd77cdb42</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Oppdatere kvalitetsplan</pnp:DataValue>
@@ -292,7 +292,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">240</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">738f959d-6f8e-4037-af2e-164b02f52869</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessovergang til bygging</pnp:DataValue>
@@ -301,7 +301,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">250</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">89d8c877-7a66-4c0d-b410-2ba4188bc25a</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Byggherrens representant</pnp:DataValue>
@@ -310,7 +310,7 @@
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet skal skriftlig avtale signeres. Prosjektleder skal tildeles rollen.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">260</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">Byggherreforskriften</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">05fc9d22-1dc5-4314-ae82-84b2489f0bd8</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Koordinator utførelse (KU)</pnp:DataValue>
@@ -319,7 +319,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">270</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">806f417a-79ed-492a-836c-824a95c0c1d5</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Drift og vedlikehold</pnp:DataValue>
@@ -328,7 +328,7 @@
             <pnp:DataValue FieldName="GtComment">Avklare grensesnitt mot drift og vedlikehold</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">280</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">fc30fc33-dd40-4306-aeec-cfe0b2221732</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">TS inspeksjon</pnp:DataValue>
@@ -337,7 +337,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">290</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">921eeb1f-b9e3-4518-a2b4-ec9c5f3a0a3a</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Sluttrapport</pnp:DataValue>
@@ -346,7 +346,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">300</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">f3623724-a55d-4c63-ba2f-cfb995c393ec</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Avslutte kontrakt med entreprenør</pnp:DataValue>
@@ -355,7 +355,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">310</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">3dd9df0f-db73-40f2-86c5-0a34fb3cb3a4</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessovergang til 'avslutte'</pnp:DataValue>
@@ -364,7 +364,7 @@
             <pnp:DataValue FieldName="GtComment">Er all informasjon fra byggeprosjektet klar</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">320</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">2aac53fc-7dc6-43db-9eb8-de81699a98d6</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Håndtering garandiperiode</pnp:DataValue>
@@ -373,7 +373,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">330</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">4a50c4a5-54ab-4666-8cb4-def66fefcfa9</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Eiendomsovertakelse</pnp:DataValue>
@@ -382,7 +382,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">340</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">3a79c5da-79da-47b2-8e8f-b7574ac8910b</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Ferdig dokumentasjon</pnp:DataValue>
@@ -391,7 +391,7 @@
             <pnp:DataValue FieldName="GtComment">NVDB, FDV, Bru, tunnel</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">350</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">4f55515b-227b-4875-9969-2272557c1a82</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Overtakelsesprotokoll - ansvar til DV</pnp:DataValue>
@@ -400,7 +400,7 @@
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">360</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
-            <pnp:DataValue FieldName="GtDataRowUniqueKey">UNIK</pnp:DataValue>
+            <pnp:DataValue FieldName="GtDataRowUniqueKey">e64ef202-c95a-489a-9452-0ee5e562948b</pnp:DataValue>
         </pnp:DataRow>
     </pnp:DataRows>
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="Objects/Lists/Security/DefaultSecurity.xml" />
