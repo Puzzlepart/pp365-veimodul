@@ -1,0 +1,11 @@
+<pnp:Files xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+    <pnp:File Src="ProjectExtensions/Veimal.txt" Folder="Prosjekttillegg" Level="Published" Overwrite="true">
+        <pnp:Properties>
+            <pnp:Property Key="Title" Value="Veimal" />
+            <pnp:Property Key="GtDescription" Value="Tilpasninger for veiprosjekter" />
+            <pnp:Property Key="GtExtensionDefault" Value="1" />
+            <pnp:Property Key="GtExtensionHidden" Value="0" />
+            <pnp:Property Key="GtExtensionLocked" Value="0" />
+        </pnp:Properties>
+    </pnp:File>
+</pnp:Files>
