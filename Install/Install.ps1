@@ -11,6 +11,25 @@ Param(
 ## Storing access tokens for interactive logins
 $global:__InteractiveCachedAccessTokens = @{}
 
+
+<#
+Starts an action and writes the action name to the console. Make sure to update the $global:ACTIONS_COUNT before
+adding a new action. Uses -NoNewline to avoid a line break before the elapsed time is written.
+#>
+function StartAction($Action) {
+  $global:StopWatch_Action = [Diagnostics.Stopwatch]::StartNew()
+  Write-Host "$Action... " -NoNewline
+}
+
+<#
+Ends an action and writes the elapsed time to the console.
+#>
+function EndAction() {
+  $global:StopWatch_Action.Stop()
+  $ElapsedSeconds = [math]::Round(($global:StopWatch_Action.ElapsedMilliseconds) / 1000, 2)
+  Write-Host "Completed in $($ElapsedSeconds)s" -ForegroundColor Green
+}
+
 ## TODO: Create install script
 
 #region Setting variables based on input from user
@@ -41,4 +60,13 @@ if (-not $SkipSearchConfiguration.IsPresent) {
     Write-Host "[WARNING] Failed to import Search Configuration: $($_.Exception.Message)" -ForegroundColor Yellow
   }
 }
+#endregion
+
+
+#region Apply Template
+StartAction("Applying veimodul template")
+Connect-PnPOnline -Url $Url -Interactive -ErrorAction Stop
+Invoke-PnPSiteTemplate -Path "$($TemplatesBasePath)/veimodul.pnp"
+Disconnect-PnPOnline
+EndAction
 #endregion
