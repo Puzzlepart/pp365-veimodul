@@ -9,8 +9,7 @@
         "**/.dist": true,
         "**/temp": true,
         "**/tmp": true,
-        "**/common": true,
-        "README.md": true
+        "**/common": true
     },
     "files.associations": {
         "*.txt": "json",

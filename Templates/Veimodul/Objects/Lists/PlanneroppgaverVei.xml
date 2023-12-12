@@ -32,14 +32,6 @@
   </pnp:FieldRefs>
   <pnp:DataRows KeyColumn="GtDataRowUniqueKey" UpdateBehavior="Overwrite">
     <pnp:DataRow>
-      <pnp:DataValue FieldName="GtSortOrder">00</pnp:DataValue>
-      <pnp:DataValue FieldName="Title">Ingen fase</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription"></pnp:DataValue>
-      <pnp:DataValue FieldName="GtCategory">Ingen fase</pnp:DataValue>
-      <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDataRowUniqueKey">f73eb3df-78df-4d72-b4a7-dd7bc2beaec3</pnp:DataValue>
-    </pnp:DataRow>
-    <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">10</pnp:DataValue>
       <pnp:DataValue FieldName="Title">01 Signert prosjektbestilling</pnp:DataValue>
       <pnp:DataValue FieldName="GtDescription">Utarbeides av prosjekteier, signeres av prosjektleder og prosjekteier</pnp:DataValue>

@@ -12,8 +12,6 @@ Denne pakken kommer ikke bundlet med PnP.PowerShell. Vi anbefaler sterkt å inst
 
 # TODOS
 
-TODO: Ferdigstill byggeskript
-TODO: Ferdigstill installasjonsskript
-TODO: Legg inn mappestruktur i Standarddokumenter-configen
+TODO: Install: Logg oppføring i Installlogg
 TODO: Sjekk pre-installasjon hvorvidt RefinableStrings er ledig eller allerede allokert i tenanten
 TODO: Ferdigstill README
