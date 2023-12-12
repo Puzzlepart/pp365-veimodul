@@ -115,12 +115,14 @@
         {
           "ID": "8f785c45-ca9f-444c-958a-89f74a1a7143",
           "Name": "GtVeiSubject",
-          "Required": false
+          "Required": false,
+          "DisplayName": "Fag"
         },
         {
           "ID": "e5de159b-aadd-40d2-9c20-61d4604829bb",
           "Name": "GtVeiTopic",
-          "Required": false
+          "Required": false,
+          "DisplayName": "Emne"
         }
       ],
       "Views": [

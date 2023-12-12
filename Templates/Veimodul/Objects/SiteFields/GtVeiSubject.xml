@@ -1,4 +1,4 @@
-﻿<Field Description="" DisplayName="Fag" Group="Kolonner for Prosjektportalen (Veiprosjekt)" ID="{8f785c45-ca9f-444c-958a-89f74a1a7143}" List="{{listid:TaxonomyHiddenList}}" Mult="TRUE" Name="GtVeiSubject" ShowField="Term1044" SourceID="{{siteid}}" StaticName="GtVeiSubject" Type="TaxonomyFieldTypeMulti" WebId="{siteid}">
+﻿<Field Description="" DisplayName="Fag" Group="Kolonner for Prosjektportalen (Prosjekt)" ID="{8f785c45-ca9f-444c-958a-89f74a1a7143}" List="{{listid:TaxonomyHiddenList}}" Mult="TRUE" Name="GtVeiSubject" ShowField="Term1044" SourceID="{{siteid}}" StaticName="GtVeiSubject" Type="TaxonomyFieldTypeMulti" WebId="{siteid}">
     <Customization>
         <ArrayOfProperty>
             <Property>

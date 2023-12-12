@@ -1,4 +1,4 @@
-﻿<Field Description="" DisplayName="Emne" Group="Kolonner for Prosjektportalen (Veiprosjekt)" ID="{e5de159b-aadd-40d2-9c20-61d4604829bb}" List="{{listid:TaxonomyHiddenList}}" Mult="TRUE" Name="GtVeiTopic" ShowField="Term1044" SourceID="{{siteid}}" StaticName="GtVeiTopic" Type="TaxonomyFieldTypeMulti" WebId="{siteid}">
+﻿<Field Description="" DisplayName="Emne" Group="Kolonner for Prosjektportalen (Prosjekt)" ID="{e5de159b-aadd-40d2-9c20-61d4604829bb}" List="{{listid:TaxonomyHiddenList}}" Mult="TRUE" Name="GtVeiTopic" ShowField="Term1044" SourceID="{{siteid}}" StaticName="GtVeiTopic" Type="TaxonomyFieldTypeMulti" WebId="{siteid}">
     <Customization>
         <ArrayOfProperty>
             <Property>
