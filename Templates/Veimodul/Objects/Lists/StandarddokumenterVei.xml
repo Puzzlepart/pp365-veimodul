@@ -27,7 +27,6 @@
         <pnp:FieldRef ID="e5de159b-aadd-40d2-9c20-61d4604829bb" Name="GtVeiTopic" DisplayName="Emne" />
     </pnp:FieldRefs>
     <pnp:Fields>
-        <Field Type="Note" DisplayName="Fase_0" StaticName="j25543a5815d485da9a5e0773ad762e9" Name="j25543a5815d485da9a5e0773ad762e9" ID="{C886122C-1717-4C95-8B6B-8B2E553E5F2D}" ShowInViewForms="FALSE" Required="FALSE" Hidden="TRUE" />
         <Field Description="" DisplayName="Fase" ID="{325543a5-815d-485d-a9a5-e0773ad762e9}" Name="GtProjectPhase" ShowField="Term1044" SourceID="{{siteid}}" StaticName="GtProjectPhase" Type="TaxonomyFieldType" WebId="{siteid}">
             <Customization>
                 <ArrayOfProperty>
