@@ -52,18 +52,17 @@ $PNP_TEMPLATES_DIST_BASEPATH = "$ROOT_PATH/.dist/Templates"
 EndAction
 #endregion  
 
+Set-Location $PSScriptRoot
+StartAction("Building Portfolio PnP template")
+Convert-PnPFolderToSiteTemplate -Out "$RELEASE_PATH_TEMPLATES/Veimodul.pnp" -Folder "$PNP_TEMPLATES_BASEPATH/Veimodul" -Force
+EndAction
+
 #region Copying source files
 StartAction("Copying Install.ps1 and script source files")
 
 Copy-Item -Path "$PSScriptRoot/Install.ps1" -Destination $RELEASE_PATH -Force
 Copy-Item -Path "$PSScriptRoot/SearchConfiguration.xml" -Destination $RELEASE_PATH -Force
 EndAction
-
-if (-not $SkipBundle.IsPresent) {
-    StartAction("Copying PnP.PowerShell bundle")
-    Copy-Item -Path $PNP_BUNDLE_PATH -Filter * -Destination $RELEASE_PATH -Force -Recurse
-    EndAction
-}
 #endregion
 
 #region Compressing release to a zip file
