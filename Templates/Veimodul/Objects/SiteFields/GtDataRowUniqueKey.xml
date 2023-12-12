@@ -1,2 +1,2 @@
-<Field DisplayName="Unik datanøkkel" Hidden="true" Description="Unik nøkkel for å håndtere oppdatering av Prosjektportalen med moduler" Type="Text" Required="FALSE" ID="{c70ca705-d503-4d3c-a28e-078e7d61c4c2}" StaticName="GtDataRowUniqueKey" Name="GtDataRowUniqueKey" Group="Kolonner for Prosjektportalen (Prosjekt)" EnforceUniqueValues="TRUE" Indexed="TRUE">
+<Field DisplayName="Unik datanøkkel" Hidden="true" Description="Unik nøkkel for å håndtere oppdatering av Prosjektportalen med moduler" Type="Text" Required="FALSE" ID="{c70ca705-d503-4d3c-a28e-078e7d61c4c2}" StaticName="GtDataRowUniqueKey" Name="GtDataRowUniqueKey" Group="Kolonner for Prosjektportalen (Portefølje)" EnforceUniqueValues="TRUE" Indexed="TRUE">
 </Field>
