@@ -1,4 +1,4 @@
-<pnp:ListInstance Title="Standarddokumenter Vei" TemplateType="101" Url="StandarddokumenterVei" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" EnableAttachments="false" 
+<pnp:ListInstance Title="Standarddokumenter Vei" TemplateType="101" Url="StandarddokumenterVei" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="500" DraftVersionVisibility="0" EnableAttachments="false"
     xmlns:pnp="http://schemas.dev.office.com/PnP/2021/03/ProvisioningSchema">
     <pnp:Views>
         <View DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" Type="HTML" DisplayName="Alle dokumenter" Url="{site}/StandarddokumenterVei/Forms/AllItems.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/15/images/dlicon.png?rev=47">
@@ -76,4 +76,45 @@
             </Customization>
         </Field>
     </pnp:Fields>
+    <pnp:Folders>
+        <pnp:Folder Name="01_Planlegge">
+            <pnp:Folder Name="00_Kontrakter og avtaler"></pnp:Folder>
+            <pnp:Folder Name="10_Styringsdokumenter"></pnp:Folder>
+            <pnp:Folder Name="20_Logg"></pnp:Folder>
+            <pnp:Folder Name="30_Økonomi og fremdrift"></pnp:Folder>
+            <pnp:Folder Name="40_Møter"></pnp:Folder>
+            <pnp:Folder Name="50_Grunnlagsdata og Arbeidsmapper fag"></pnp:Folder>
+            <pnp:Folder Name="60_Leveranser"></pnp:Folder>
+            <pnp:Folder Name="70_Grunnlagsmateriale til neste fase og faseevaulering"></pnp:Folder>
+            <pnp:Folder Name="80_Bilder"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="02_Prosjektere">
+            <pnp:Folder Name="00_Kontrakter og avtaler"></pnp:Folder>
+            <pnp:Folder Name="10_Styringsdokumenter"></pnp:Folder>
+            <pnp:Folder Name="20_Logg"></pnp:Folder>
+            <pnp:Folder Name="30_Økonomi og fremdrift"></pnp:Folder>
+            <pnp:Folder Name="40_Møter"></pnp:Folder>
+            <pnp:Folder Name="50_Arbeidsmappe fag"></pnp:Folder>
+            <pnp:Folder Name="60_Leveranser"></pnp:Folder>
+            <pnp:Folder Name="70_Grunnlagsmateriale til neste fase og faseevaluering"></pnp:Folder>
+            <pnp:Folder Name="80_Bilder"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="03_Bygge">
+            <pnp:Folder Name="00_Kontrakter og avtaler"></pnp:Folder>
+            <pnp:Folder Name="10_Styringsdokumenter"></pnp:Folder>
+            <pnp:Folder Name="20_Logg"></pnp:Folder>
+            <pnp:Folder Name="30_Økonomi og fremdrift"></pnp:Folder>
+            <pnp:Folder Name="40_Møter"></pnp:Folder>
+            <pnp:Folder Name="50_Kvalitet"></pnp:Folder>
+            <pnp:Folder Name="60_SHA og YM"></pnp:Folder>
+            <pnp:Folder Name="70_Sluttdokumentasjon og faseevaluering"></pnp:Folder>
+            <pnp:Folder Name="80_Bilder"></pnp:Folder>
+        </pnp:Folder>
+        <pnp:Folder Name="04_Avslutte">
+            <pnp:Folder Name="00_Sluttrapport"></pnp:Folder>
+            <pnp:Folder Name="10_Overleveringsmøte til drift og vedlikehold"></pnp:Folder>
+            <pnp:Folder Name="20_Dokumentasjon"></pnp:Folder>
+            <pnp:Folder Name="30_Bilder"></pnp:Folder>
+        </pnp:Folder>
+    </pnp:Folders>
 </pnp:ListInstance>
