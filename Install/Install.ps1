@@ -1,15 +1,11 @@
-[Diagnostics.CodeAnalysis.SuppressMessageAttribute("PSAvoidUsingPlainTextForPassword", "")]
 Param(
-    [Parameter(Mandatory = $true, HelpMessage = "N/A")]
+    [Parameter(Mandatory = $true, HelpMessage = "URL to the Prosjektportalen hub site")]
     [string]$Url,
     [Parameter(Mandatory = $false, HelpMessage = "Skip search configuration")]
     [switch]$SkipSearchConfiguration,
     [Parameter(Mandatory = $false, HelpMessage = "Do you want to perform an upgrade?")]
     [switch]$Upgrade
 )
-
-## Storing access tokens for interactive logins
-$global:__InteractiveCachedAccessTokens = @{}
 
 ## TODO: Create install script
 
@@ -22,7 +18,7 @@ $TemplatesBasePath = "$PSScriptRoot/Templates"
 #endregion
 
 #region Print installation user
-Connect-SharePoint -Url $AdminSiteUrl -ErrorAction Stop
+Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ErrorAction Stop -WarningAction Ignore
 $CurrentUser = Get-PnPProperty -Property CurrentUser -ClientObject (Get-PnPContext).Web
 Write-Host "[INFO] Installing with user [$($CurrentUser.Email)]"
 Disconnect-PnPOnline
@@ -31,14 +27,16 @@ Disconnect-PnPOnline
 #region Search Configuration 
 if (-not $SkipSearchConfiguration.IsPresent) {
   Try {
-    Connect-SharePoint -Url $AdminSiteUrl -ErrorAction Stop
-    StartAction("Importing Search Configuration")
+    Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ErrorAction Stop -WarningAction Ignore
     Set-PnPSearchConfiguration -Scope Subscription -Path "$PSScriptRoot/SearchConfiguration.xml" -ErrorAction SilentlyContinue   
     Disconnect-PnPOnline
-    EndAction
   }
   Catch {
     Write-Host "[WARNING] Failed to import Search Configuration: $($_.Exception.Message)" -ForegroundColor Yellow
   }
 }
 #endregion
+
+
+Connect-PnPOnline -Url $Url -Interactive -ErrorAction Stop -WarningAction Ignore
+Invoke-PnPSiteTemplate -Path "$TemplatesBasePath/Veimodul/Veimodul.xml"
