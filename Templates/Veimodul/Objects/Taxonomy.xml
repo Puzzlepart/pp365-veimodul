@@ -1,5 +1,5 @@
-<pnp:TermGroups xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
-  <pnp:TermGroup Name="Prosjektportalen" ID="c56bb677-f782-4cf6-a6d6-17685ee9f19d" Description="" UpdateBehavior="Overwrite">
+<pnp:TermGroups xmlns:pnp="http://schemas.dev.office.com/PnP/2021/03/ProvisioningSchema">
+  <pnp:TermGroup Name="Prosjektportalen" ID="c56bb677-f782-4cf6-a6d6-17685ee9f19d" Description="" UpdateBehavior="Skip">
     <pnp:TermSets>
       <pnp:TermSet Name="Fag (Vei)" ID="85485162-b98a-4097-8364-34ad5468fc4f" Description="">
         <pnp:Terms>

@@ -1,4 +1,4 @@
-<pnp:Files xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+<pnp:Files xmlns:pnp="http://schemas.dev.office.com/PnP/2021/03/ProvisioningSchema">
     <pnp:File Src="ProjectExtensions/Veimal.txt" Folder="Prosjekttillegg" Level="Published" Overwrite="true">
         <pnp:Properties>
             <pnp:Property Key="Title" Value="Veimal" />

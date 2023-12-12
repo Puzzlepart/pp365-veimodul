@@ -1,9 +1,9 @@
 <pnp:ListInstance Title="Maloppsett" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Maloppsett" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="50" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Maloppsett/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Maloppsett/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Maloppsett/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage=""
-  xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+  xmlns:pnp="http://schemas.dev.office.com/PnP/2021/03/ProvisioningSchema">
   <pnp:DataRows KeyColumn="Title" UpdateBehavior="Overwrite">
     <pnp:DataRow>
       <pnp:DataValue FieldName="Title">Veiprosjekt</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Veiprosjekter har egne faser, egne prosjektegenskaper og egne felter i prosjektstatus.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Veiprosjekter har egne faser, egne prosjektegenskaper og egne felter i dokumentbiblioteker.</pnp:DataValue>
       <pnp:DataValue FieldName="GtIsProgram">False</pnp:DataValue>
       <pnp:DataValue FieldName="IconName">Car</pnp:DataValue>
       <pnp:DataValue FieldName="GtProjectTemplate">1</pnp:DataValue>

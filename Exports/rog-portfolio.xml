@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2022/09/ProvisioningSchema">
+<pnp:Provisioning xmlns:pnp="http://schemas.dev.office.com/PnP/2021/03/ProvisioningSchema">
   <pnp:Preferences Generator="PnP.Framework, Version=1.12.2.0, Culture=neutral, PublicKeyToken=0d501f89f11b748c" />
   <pnp:Templates ID="CONTAINER-TEMPLATE-PP-PORTFOLIO-NO-NB">
     <pnp:ProvisioningTemplate ID="TEMPLATE-PP-PORTFOLIO-NO-NB" Version="1" BaseSiteTemplate="GROUP#0" Scope="RootSite">

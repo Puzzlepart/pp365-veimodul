@@ -39,17 +39,18 @@ $TemplatesBasePath = "$PSScriptRoot/Templates"
 Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ErrorAction Stop -WarningAction Ignore
 $CurrentUser = Get-PnPProperty -Property CurrentUser -ClientObject (Get-PnPContext).Web
 Write-Host "[INFO] Installing with user [$($CurrentUser.Email)]"
-Disconnect-PnPOnline
 #endregion
 
 #region Search Configuration 
 if (-not $SkipSearchConfiguration.IsPresent) {
+  StartAction("Uploading search configuration")
   Try {
     Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ErrorAction Stop -WarningAction Ignore
-    Set-PnPSearchConfiguration -Scope Subscription -Path "$PSScriptRoot/SearchConfiguration.xml" -ErrorAction SilentlyContinue   
-    Disconnect-PnPOnline
+    Set-PnPSearchConfiguration -Scope Subscription -Path "$PSScriptRoot/SearchConfiguration.xml" -ErrorAction SilentlyContinue
+    EndAction
   }
   Catch {
+    EndAction
     Write-Host "[WARNING] Failed to import Search Configuration: $($_.Exception.Message)" -ForegroundColor Yellow
   }
 }
@@ -59,7 +60,6 @@ if (-not $SkipSearchConfiguration.IsPresent) {
 #region Apply Template
 StartAction("Applying veimodul template")
 Connect-PnPOnline -Url $Url -Interactive -ErrorAction Stop
-Invoke-PnPSiteTemplate -Path "$($TemplatesBasePath)/veimodul.pnp"
-Disconnect-PnPOnline
+Invoke-PnPSiteTemplate -Path "$($TemplatesBasePath)/veimodul.pnp" -ErrorAction Stop
 EndAction
 #endregion
