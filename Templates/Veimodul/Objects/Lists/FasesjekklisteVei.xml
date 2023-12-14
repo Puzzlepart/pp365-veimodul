@@ -80,7 +80,7 @@
     <pnp:DataRows UpdateBehavior="Overwrite" KeyColumn="GtDataRowUniqueKey">
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Opprette BIM kontakt</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase" />
+            <pnp:DataValue FieldName="GtProjectPhase">01 Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Ta kontakt med BIM ansvarlige før prosjektbestillingen signeres for å vurdere hvor mye BIM som trengs i prosjektet. Vil det trenges opplæring i prosjektgruppa?</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">10</pnp:DataValue>
@@ -178,7 +178,7 @@
             <pnp:DataValue FieldName="GtDataRowUniqueKey">930b586d-031d-4505-b1b6-4f5c3cb777ff</pnp:DataValue>
         </pnp:DataRow>
         <pnp:DataRow>
-            <pnp:DataValue FieldName="Title">Oppdatere sentralt stryingsdokument (SSD)</pnp:DataValue>
+            <pnp:DataValue FieldName="Title">Oppdatere sentralt styringsdokument (SSD)</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
@@ -296,7 +296,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessovergang til bygging</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase" />
+            <pnp:DataValue FieldName="GtProjectPhase">Bygge|bfb5fe7c-7013-4883-a1db-1ce5b9801c2f</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">250</pnp:DataValue>
