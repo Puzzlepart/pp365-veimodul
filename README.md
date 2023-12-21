@@ -14,6 +14,12 @@ Veimodulen installeres som et tillegg til Prosjektportalen 365. Ved å installer
 
 ## Installasjon
 
+Forutsetninger:
+
+- Du har installert Prosjektportalen 365 på et område
+- Du er Term Store Administrator (pga. nye termer)
+- Du er SharePoint Administrator (pga. søkekonfigurasjon)
+
 Denne pakken kommer ikke bundlet med PnP.PowerShell. Vi anbefaler sterkt å installere med samme versjon som kommer med Prosjektportalen 365, som per 21.12.2023 er PnP.PowerShell 1.11.0.
 
 1. Last ned release-pakken fra releases og pakk ut pakken lokalt

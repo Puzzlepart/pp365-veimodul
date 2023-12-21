@@ -35,6 +35,8 @@ $AdminSiteUrl = (@($Uri.Scheme, "://", $Uri.Authority) -join "").Replace(".share
 $TemplatesBasePath = "$PSScriptRoot/Templates"
 #endregion
 
+Set-PnPTraceLog -Off
+
 # TODO: Replace version from package.json/git-tag
 Write-Host "Installing Prosjektportalen veimodul version 1.0.0" -ForegroundColor Cyan
 
@@ -63,7 +65,7 @@ if (-not $SkipSearchConfiguration.IsPresent) {
 #region Apply Template
 StartAction("Applying veimodul template")
 Connect-PnPOnline -Url $Url -Interactive -ErrorAction Stop
-Invoke-PnPSiteTemplate -Path "$($TemplatesBasePath)/veimodul.pnp" -ErrorAction Stop
+Invoke-PnPSiteTemplate -Path "$($TemplatesBasePath)/veimodul.pnp" -ErrorAction Stop -WarningAction Ignore
 EndAction
 #endregion
 
@@ -134,3 +136,5 @@ if ($null -ne $CurrentUser.Email) {
 Add-PnPListItem -List "Installasjonslogg" -Values $InstallEntry -ErrorAction SilentlyContinue >$null 2>&1
 
 #endregion
+
+Write-Host "Installation of veimodulen complete!" -ForegroundColor Green
