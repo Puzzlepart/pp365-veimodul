@@ -13,7 +13,7 @@
       <pnp:DataValue FieldName="IsHiddenTemplate">False</pnp:DataValue>
       <pnp:DataValue FieldName="GtProjectColumns">Kolonner for Prosjektportalen (Prosjekt)</pnp:DataValue>
       <pnp:DataValue FieldName="GtProjectCustomColumns">Egendefinerte kolonner for Prosjektportalen</pnp:DataValue>
-      <pnp:DataValue FieldName="IsDefaultTemplate">True</pnp:DataValue>
+      <pnp:DataValue FieldName="IsDefaultTemplate">False</pnp:DataValue>
       <pnp:DataValue FieldName="IsDefaultExtensionsLocked">False</pnp:DataValue>
       <pnp:DataValue FieldName="IsDefaultListContentLocked">False</pnp:DataValue>
     </pnp:DataRow>
