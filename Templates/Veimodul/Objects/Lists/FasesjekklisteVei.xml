@@ -80,7 +80,7 @@
     <pnp:DataRows UpdateBehavior="Overwrite" KeyColumn="GtDataRowUniqueKey">
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Opprette BIM kontakt</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">01 Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Ta kontakt med BIM ansvarlige før prosjektbestillingen signeres for å vurdere hvor mye BIM som trengs i prosjektet. Vil det trenges opplæring i prosjektgruppa?</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">10</pnp:DataValue>
@@ -89,7 +89,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosjektbestilling</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">01 Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Ved oppstart av planarbeidet</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">20</pnp:DataValue>
@@ -98,7 +98,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Sentralt styringsdokument (SDD)</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">01 Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet. Skal løpende oppdateres ved endringer.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">30</pnp:DataValue>
@@ -116,7 +116,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Byggherrens representant</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">01 Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet skal skriftlig avtale signeres. Prosjektleder skal tildeles rollen.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">50</pnp:DataValue>
@@ -125,7 +125,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Koordinator planlegging</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">01 Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet skal skriftlig avtale signeres. Planleggingsleder tildeles rollen.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">60</pnp:DataValue>
@@ -134,7 +134,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">YM-koordinator</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">01 Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Før oppstart av planarbeidet skal YM-koordinator utnevnes. Planleggingsleder tildeles rollen</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">70</pnp:DataValue>
@@ -152,7 +152,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessevaluering planlegging</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">01 Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Ved avslutning av planfasen, og før overlevering til neste fase skal en en faseevaluering gjøres.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">90</pnp:DataValue>
@@ -170,7 +170,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Sjekk prosjektbestillingen</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Sjekk om prosjektet har relevant og godkjent prosjektbestilling</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">110</pnp:DataValue>
@@ -179,7 +179,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Oppdatere sentralt styringsdokument (SSD)</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">120</pnp:DataValue>
@@ -188,7 +188,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Oppdatere kvalitetsplan</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">130</pnp:DataValue>
@@ -197,7 +197,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessovergang til prosjektering</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Møte skal avholdes for å gjennomgå læringspunkt fra "prosessevaluering planlegging", gå gjennom fasesjekklista til planleggingsfasen og offisielt skifte fase til "prosjektering"</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">140</pnp:DataValue>
@@ -206,7 +206,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Byggherrens representant</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">150</pnp:DataValue>
@@ -215,7 +215,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Koordinator prosjektering (KP)</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">160</pnp:DataValue>
@@ -224,7 +224,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">YM-koordinator</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">170</pnp:DataValue>
@@ -242,7 +242,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Kvalitetssikre konkurransegrunnlag og prosjekt</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">190</pnp:DataValue>
@@ -251,7 +251,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Prosessevaluering prosjektering</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">02 Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment">Ikkje faseevaluering</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">200</pnp:DataValue>
@@ -260,7 +260,7 @@
         </pnp:DataRow>
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Opprette BIM kontakt</pnp:DataValue>
-            <pnp:DataValue FieldName="GtProjectPhase">03 Bygge|bfb5fe7c-7013-4883-a1db-1ce5b9801c2f</pnp:DataValue>
+            <pnp:DataValue FieldName="GtProjectPhase">Bygge|bfb5fe7c-7013-4883-a1db-1ce5b9801c2f</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
             <pnp:DataValue FieldName="GtComment" />
             <pnp:DataValue FieldName="GtSortOrder">210</pnp:DataValue>
@@ -271,7 +271,7 @@
             <pnp:DataValue FieldName="Title">Oppdatert prosjektbestilling</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Bygge|bfb5fe7c-7013-4883-a1db-1ce5b9801c2f</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
-            <pnp:DataValue FieldName="GtComment">Har forutsetningene endret seg ?</pnp:DataValue>
+            <pnp:DataValue FieldName="GtComment">Har forutsetningene endret seg?</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">220</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
             <pnp:DataValue FieldName="GtDataRowUniqueKey">7d828f14-088f-407a-a65c-c88320ecf106</pnp:DataValue>
