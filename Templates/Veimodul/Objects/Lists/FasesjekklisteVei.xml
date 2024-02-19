@@ -109,7 +109,7 @@
             <pnp:DataValue FieldName="Title">Kvalitetsplan inkludert SHA og YM</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
-            <pnp:DataValue FieldName="GtComment">Utarbeides i startfase av prosjektet. Ved bruk av konsulent, skal både konsulent og RFK utarbeide egne kvalitetsplaner. SHA utgår i planfase, YM og ROS kan inkluderes som kapittel i planbeskrivelse.</pnp:DataValue>
+            <pnp:DataValue FieldName="GtComment">Utarbeides i startfase av prosjektet. Ved bruk av konsulent, skal både konsulent og fylkeskommunen utarbeide egne kvalitetsplaner. SHA utgår i planfase, YM og ROS kan inkluderes som kapittel i planbeskrivelse.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">40</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored">R760</pnp:DataValue>
             <pnp:DataValue FieldName="GtDataRowUniqueKey">12ab5eeb-4c07-4f8b-be49-d48817740f4b</pnp:DataValue>
@@ -235,7 +235,7 @@
             <pnp:DataValue FieldName="Title">Politisk godkjenning</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Prosjektere|37da01eb-95dd-4d3e-9d48-44e1edb825d4</pnp:DataValue>
             <pnp:DataValue FieldName="GtChecklistStatus">Åpen</pnp:DataValue>
-            <pnp:DataValue FieldName="GtComment">Prosjekt over 100 millioner inkl.mva må godkjennes i bl.a. fylkestinget, dette må være på plass før et prosjekt kan lyses ut.</pnp:DataValue>
+            <pnp:DataValue FieldName="GtComment">Prosjekt over 100 millioner inkl. mva må godkjennes i bl.a. fylkestinget, dette må være på plass før et prosjekt kan lyses ut.</pnp:DataValue>
             <pnp:DataValue FieldName="GtSortOrder">180</pnp:DataValue>
             <pnp:DataValue FieldName="GtVeiAnchored" />
             <pnp:DataValue FieldName="GtDataRowUniqueKey">000f899f-1f66-47b8-967d-c01d1a79635b</pnp:DataValue>
