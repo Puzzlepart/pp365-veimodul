@@ -3,7 +3,7 @@
   <pnp:DataRows KeyColumn="Title" UpdateBehavior="Overwrite">
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">350</pnp:DataValue>
-      <pnp:DataValue FieldName="Title">Prosjekteringsleder</pnp:DataValue>
+      <pnp:DataValue FieldName="Title">Planleggingsleder</pnp:DataValue>
       <pnp:DataValue FieldName="GtInternalName">GtVeiPlanningManager</pnp:DataValue>
       <pnp:DataValue FieldName="GtManagedProperty"></pnp:DataValue>
       <pnp:DataValue FieldName="GtFieldDataType">User</pnp:DataValue>
@@ -16,7 +16,7 @@
     </pnp:DataRow>
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">340</pnp:DataValue>
-      <pnp:DataValue FieldName="Title">Planleggingsleder</pnp:DataValue>
+      <pnp:DataValue FieldName="Title">Prosjekteringsleder</pnp:DataValue>
       <pnp:DataValue FieldName="GtInternalName">GtVeiProjectingManager</pnp:DataValue>
       <pnp:DataValue FieldName="GtManagedProperty"></pnp:DataValue>
       <pnp:DataValue FieldName="GtFieldDataType">User</pnp:DataValue>
