@@ -45,7 +45,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">20</pnp:DataValue>
       <pnp:DataValue FieldName="Title">02 Interne fagressurser</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Vurder hvilke fagressurser som er nødvendige inn i prosjektet.Kvitter ut med dem som ikke er relevanteFellesressurser bestilles hos samferdsel.fagressurser@rogfk.no</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Vurder hvilke fagressurser som er nødvendige inn i prosjektet. Kvitter ut med dem som ikke er relevante.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Opprette BIM-kontakt;Vegplanlegger;Arealplanlegger;Grunnerverv;Geoteknikk;Geologi;Kulturminne;Natur og miljø;Vann og avløp;Teknisk tegner;Konstruksjon;Landskapsarkitekt;Mobilitetsplanlegger;Støy;ROS;Landmåler;Trafikksignal og trafikkteknisk;Trafikksikkerhet</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
@@ -78,7 +78,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">50</pnp:DataValue>
       <pnp:DataValue FieldName="Title">05 Interne prosjektoppgaver</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Prosjektnummer fås av seksjonens byggherrestøtte.Interaxo bestilles hos seksjonens superbruker.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Prosjektnummer fås av seksjonens byggherrestøtte. Interaxo bestilles hos seksjonens superbruker.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Prosjektnummer;Prosjektkalkyle;Prosjektportal;Interaxo;Prosjektprognose;Elements</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
@@ -89,7 +89,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">60</pnp:DataValue>
       <pnp:DataValue FieldName="Title">06 Prosjektorganisering eksternt</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">https: //rfka.sharepoint.com/sites/Sentraladministrasjonen/SitePages/Innkj%C3%B8p.aspx</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription"></pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Kontakte anskaffelse;Direkteavrop/konkurranse;Oppstartsmøte konsulent;Inngå kontrakt</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
@@ -100,9 +100,9 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">70</pnp:DataValue>
       <pnp:DataValue FieldName="Title">07 Prosjektgruppen</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Jevnlig oppdatering av organisasjonskartet i SSD. Fyll inn navn i sjekklisten under. Evt. kan det lages et vedlegg som oppdateres jevnlig</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Jevnlig oppdatering av organisasjonskartet i SSD. Fyll inn navn i sjekklisten under. Ev. kan det lages et vedlegg som oppdateres jevnlig</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
-      <pnp:DataValue FieldName="GtChecklist">Prosjektleder: navn;Planleggingsleder: navn;Vegplanlegger: navn;Arealplanlegger: navn;Landskapsarkitekt: navn;VA-planlegger: navn;Trafikksikkerhetsplanlegger: navn;Prosjekteringsleder/byggeleder: navn;Kulturarv: navn;Naturmiljø og -ressurser: navn;Signalanlegg: navn;Mobilitetsplanlegger: navn;ROS-analyser:  navn;Støy: navn;Geologi og geoteknikk: navn;Konstruksjon: navn;Elektro: navn;Drift og vedlikehold: navn;Lurftforurensing: navn;Andre relevante fag...</pnp:DataValue>
+      <pnp:DataValue FieldName="GtChecklist">Prosjektleder: navn;Planleggingsleder: navn;Vegplanlegger: navn;Arealplanlegger: navn;Landskapsarkitekt: navn;VA-planlegger: navn;Trafikksikkerhetsplanlegger: navn;Prosjekteringsleder/byggeleder: navn;Kulturarv: navn;Naturmiljø og -ressurser: navn;Signalanlegg: navn;Mobilitetsplanlegger: navn;ROS-analyser: navn;Støy: navn;Geologi og geoteknikk: navn;Konstruksjon: navn;Elektro: navn;Drift og vedlikehold: navn;Lurftforurensing: navn;Andre relevante fag...</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
@@ -111,7 +111,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">80</pnp:DataValue>
       <pnp:DataValue FieldName="Title">08 Månedsrapportering og prosjektstyring</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Planleggingsleder sørger for at månedsrapporter lagres fortløpende i ElementsMånedlig rapportering til prosjektleder gjøres gjennom ISY. https: //po.isy.no/ISYPO_RogFK/Login.aspx</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Planleggingsleder sørger for at månedsrapporter lagres fortløpende i Elements. Månedlig rapportering til prosjektleder gjøres gjennom ISY.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Månedsrapport i ISY;Lagre dokumenter løpende i Elements og i Teams</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Planlegge</pnp:DataValue>
@@ -122,7 +122,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">90</pnp:DataValue>
       <pnp:DataValue FieldName="Title">09 Ferdig utarbeidet kvalitetsplan</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Kvalitetsplan skal utarbeides i hvert prosjekt, med bruk av RFK-mal.Innen 2 måneder etter prosjektstart skal det foreligge en kvalitetsplan. Planleggingsleder er ansvarlig for å utarbeide kvalitetsplan. Ved bruk av ekstern konsulent, skal det foreligge både en kvalitetsplan fra konsulent og en intern kvalitetsplan for RFK. Kvalitetsplan oppdateres jevnlig ved endringer, og gjøres kjent for prosjektets medarbeidere. Den skal lagres i Teams.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Kvalitetsplan skal utarbeides i hvert prosjekt. Innen 2 måneder etter prosjektstart skal det foreligge en kvalitetsplan. Planleggingsleder er ansvarlig for å utarbeide kvalitetsplan. Ved bruk av ekstern konsulent, skal det foreligge både en kvalitetsplan fra konsulent og en intern kvalitetsplan for fylkeskommunen. Kvalitetsplan oppdateres jevnlig ved endringer, og gjøres kjent for prosjektets medarbeidere. Den skal lagres i Teams.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Milepæl;Planlegge</pnp:DataValue>
@@ -144,7 +144,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">110</pnp:DataValue>
       <pnp:DataValue FieldName="Title">11 Oppstartsmøte med kommunen</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Før reguleringsarbeid igangsettes skal utbygger be om et møte med kommunen. I dette møtet avklares de viktigste forholdene vedrørende den aktuelle reguleringsplanen. Forut for møtet skal forslagsstiller sende inn et planinitiativ med en redegjørelse i samsvar med forskrift om behandling av private planforslag til detaljregulering etter pbl. Det skal avklares om det skal utarbeides en konsekvensutredning for tiltaket etter bestemmelser i plan- og bygningsloven, og behov for utbyggingsavtale og saksgang for denne. Det skal klargjøres hvem som er kontaktperson, heretter kalt forslagsstiller. Forslagsstiller skal få oppgitt kommunens saksbehandler/kontaktperson for det videre arbeidet.  Kommunen skal skrive referat fra møtet jfr. forskriften § 3. Oppstartsmøtet bør finne sted senest 14 dager etter forslagsstillers henvendelse til kommunen. Dersom det er uenighet på vesentlige punkter i oppstartsmøtet om det videre planarbeidet, kan forslagsstilleren kreve spørsmålet forelagt kommunestyret eller til et utvalg som har fått delegert oppgaven, til vurdering.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Før reguleringsarbeid igangsettes skal utbygger be om et møte med kommunen. I dette møtet avklares de viktigste forholdene vedrørende den aktuelle reguleringsplanen. Forut for møtet skal forslagsstiller sende inn et planinitiativ med en redegjørelse i samsvar med forskrift om behandling av private planforslag til detaljregulering etter pbl. Det skal avklares om det skal utarbeides en konsekvensutredning for tiltaket etter bestemmelser i plan- og bygningsloven, og behov for utbyggingsavtale og saksgang for denne. Det skal klargjøres hvem som er kontaktperson, heretter kalt forslagsstiller. Forslagsstiller skal få oppgitt kommunens saksbehandler/kontaktperson for det videre arbeidet. Kommunen skal skrive referat fra møtet jfr. forskriften § 3. Oppstartsmøtet bør finne sted senest 14 dager etter forslagsstillers henvendelse til kommunen. Dersom det er uenighet på vesentlige punkter i oppstartsmøtet om det videre planarbeidet, kan forslagsstilleren kreve spørsmålet forelagt kommunestyret eller til et utvalg som har fått delegert oppgaven, til vurdering.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Møte med kommunen;Stadfeste prosjektnavn og tildeling av PlanID;Motta startpakke;Vurdere planprosess etter PBL § 3.7</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Møte;Planlegge</pnp:DataValue>
@@ -155,7 +155,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">120</pnp:DataValue>
       <pnp:DataValue FieldName="Title">12 Vurdere KU-plikten</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Forskrift: https: //lovdata.no/dokument/SF/forskrift/2017-06-21-854Skjema:</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Forskrift: https: //lovdata.no/dokument/SF/forskrift/2017-06-21-854Skjema</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Fyll ut excel-arket;Lagre PDF i prosjektmappa</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
@@ -179,7 +179,7 @@
       <pnp:DataValue FieldName="Title">14 Sende over varsel om oppstart av planarbeid</pnp:DataValue>
       <pnp:DataValue FieldName="GtDescription">Noen av disse oppgavene kan legges til konsulent om konsulent er innleid i prosjektet</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
-      <pnp:DataValue FieldName="GtChecklist">Utarbeide brev til varsel om oppstart av planarbeid;Kontakte kommunikasjonsansvarlig i samferdselsavdelingen;Avisannonse;Sak til RFK sine nettsider;Vurdere behov for planprogram</pnp:DataValue>
+      <pnp:DataValue FieldName="GtChecklist">Utarbeide brev til varsel om oppstart av planarbeid;Kontakte kommunikasjonsansvarlig i samferdselsavdelingen;Avisannonse;Sak til fylkeskommunen sine nettsider;Vurdere behov for planprogram</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
@@ -210,7 +210,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">170</pnp:DataValue>
       <pnp:DataValue FieldName="Title">17 Merknadsbehandling - Varsel om oppstart av planarbeid</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Forslag til mal for oppsummering av merknader skal ligge i malbiblioteket.Det lages et nytt hefte for merkandsfase, slett sider som ikke er aktuelle i heftet.Merknader fra andre interne avdelinger som sendes i høringsfasen, skal kommenteres i merknadsheftet, (Ideelt sett skal slike avklaringer være ferdig før høringsfasen).</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Forslag til mal for oppsummering av merknader skal ligge i malbiblioteket. Det lages et nytt hefte for merkandsfase, slett sider som ikke er aktuelle i heftet. Merknader fra andre interne avdelinger som sendes i høringsfasen, skal kommenteres i merknadsheftet, (Ideelt sett skal slike avklaringer være ferdig før høringsfasen).</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Arkiver alle merknader i Elements;Oppsummer alle innkomne merkander i eget hefte;Svar ut merknader;Grunneiermøter;Informasjonsmøte;Lagre PDF av merknadsheftet</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
@@ -243,7 +243,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">200</pnp:DataValue>
       <pnp:DataValue FieldName="Title">20 Tegningshefte til førstegangsbehandling</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Skriv inn navn på de som er ansvarlige for å utføre tegningenSlett de som ikke er aktuelle, og evt. legg til andre som er aktuelle. Andre tegninger som kan være relevante:L-tegninger (skilt og oppmerking)M-tegninger (siganlanlegg) N-tegninger (belysning)P-teninger (mengder)T-tegninger (visuell presentasjon)V-tegninger (geoteknikk og geologi)X-tegninger (Ytre miljø og naturressurser)Y-tegninger (faseplaner)Se vedlagt link til tegningshefte for forklaring og andre tegninger.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Skriv inn navn på de som er ansvarlige for å utføre tegningen. Slett de som ikke er aktuelle, og ev. legg til andre som er aktuelle. Andre tegninger som kan være relevante: L-tegninger (skilt og oppmerking), M-tegninger (siganlanlegg), N-tegninger (belysning), P-teninger (mengder), T-tegninger (visuell presentasjon), V-tegninger (geoteknikk og geologi), X-tegninger (Ytre miljø og naturressurser), Y-tegninger (faseplaner). Se vedlagt link til tegningshefte for forklaring og andre tegninger.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">A-tegninger (forside, innholdsfortegnelser og bakside): Navn;B-tegninger (oversikt plan og profil): Navn;C-tegninger (primærtegninger, plan og profil): Navn;D-tegninger (sekundærtegninger, plan og profil): Navn;E-tegninger (vegkryss og avkjørsler): Navn;F-tegninger (normalprofil og overbygning): Navn;G-tegninger (Drenering og vannbehandling): Navn;H-tegninger (VA-ledninger): Navn;I-tegninger (kabler og linjer): Navn;J-tegninger (byggetekniske detaljer): Navn;K-tegninger (konstruksjoner): Navn;O-tegninger (landskap): Navn;W-tegninger (grunnervev): Navn</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
@@ -256,7 +256,7 @@
       <pnp:DataValue FieldName="Title">21 Trafikksikkehetsrevisjon (TS)</pnp:DataValue>
       <pnp:DataValue FieldName="GtDescription">Der er egen rammeavtale på TS-revisjon</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
-      <pnp:DataValue FieldName="GtChecklist">Bestille TS-revisjon;Gjennomføre og utarbeide rapport;Avklaringer og evt. endringer i plan;Godkjent TS-revisjon</pnp:DataValue>
+      <pnp:DataValue FieldName="GtChecklist">Bestille TS-revisjon;Gjennomføre og utarbeide rapport;Avklaringer og ev. endringer i plan;Godkjent TS-revisjon</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
@@ -287,7 +287,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">240</pnp:DataValue>
       <pnp:DataValue FieldName="Title">24 Kvalitetssikring og gjennomsyn</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Interne dokumenter kvalitetssikres internt. Eksterne plandokumenter skal være ferdig kvalitetssikret av konsulent, og skal bare til gjennomsyn internt.Listen er ikke fullstendig, legg til ved behov.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Interne dokumenter kvalitetssikres internt. Eksterne plandokumenter skal være ferdig kvalitetssikret av konsulent, og skal bare til gjennomsyn internt. Listen er ikke fullstendig, legg til ved behov.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Planbeskrivelse;Planbestemmelser;Plankart</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
@@ -300,7 +300,7 @@
       <pnp:DataValue FieldName="Title">25 Sende over planforslaget til kommunen via Elements</pnp:DataValue>
       <pnp:DataValue FieldName="GtDescription"></pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Planlegge</pnp:DataValue>
-      <pnp:DataValue FieldName="GtChecklist">Førstegangsbehandling i kommunen;Opprett en journalpost i Elements - utgående brev;Tittel: Detaljregulering for fv. xx navn, plan-ID xxx - Oversendelse til førstegangsbehandling;Til: postmottak i kommunen, sjekk at organisasjonsnummeret står slik at de får det elektronisk;Rediger, last opp vedleggene. Vedleggene heter planidnummer_gjeldende dok. (eks: 2020_plankart);SOSI-fil og wordfiler kan ikke sendes via Elements;Rediger word-filen, og skriv oversendelsesbrev. Se vedlegg for mal. ;Flett metadata;Send til godkjenning - skriv seksjonsslederens navn;Send mail til seksjonsleder med Astrid Eide på kopi og informer om godkjenning av plan og videresend;Ekspeder;Opprett mappe i Teams - del med saksbehandler.Mappenavn: Førstegangsbehandling_delt-med-kommunen;SOSI-fil og word fil av planbeskrivelse og bestemmelse legges med her sammen med PDF av planforslag;Fjern delt koblingen etter 2 uker. </pnp:DataValue>
+      <pnp:DataValue FieldName="GtChecklist">Førstegangsbehandling i kommunen;Opprett en journalpost i Elements - utgående brev;Tittel: Detaljregulering for fv. xx navn, plan-ID xxx - Oversendelse til førstegangsbehandling;Til: postmottak i kommunen, sjekk at organisasjonsnummeret står slik at de får det elektronisk;Rediger, last opp vedleggene. Vedleggene heter planidnummer_gjeldende dok. (eks: 2020_plankart);SOSI-fil og wordfiler kan ikke sendes via Elements;Rediger word-filen, og skriv oversendelsesbrev. Se vedlegg for mal. ;Flett metadata;Send til godkjenning - skriv seksjonsslederens navn;Send mail til seksjonsleder med Astrid Eide på kopi og informer om godkjenning av plan og videresend;Ekspeder;Opprett mappe i Teams - del med saksbehandler. Mappenavn: Førstegangsbehandling_delt-med-kommunen;SOSI-fil og word fil av planbeskrivelse og bestemmelse legges med her sammen med PDF av planforslag;Fjern delt koblingen etter 2 uker.</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Planlegge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
@@ -485,7 +485,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">420</pnp:DataValue>
       <pnp:DataValue FieldName="Title">08 Prosjektgruppen</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Jevnlig oppdatering av organisasjonskartet. Fyll inn navn i sjekklisten under. Evt. kan det lages et vedlegg som oppdateres jevnlig</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Jevnlig oppdatering av organisasjonskartet. Fyll inn navn i sjekklisten under. Ev. kan det lages et vedlegg som oppdateres jevnlig</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Prosjektleder: navn;Prosjekteringsleder: navn;Planleggingsleder: navn;Vegplanlegger: navn;Arealplanlegger: navn;Landskapsarkitekt: navn;VA-planlegger: navn;Trafikksikkerhetsplanlegger: navn;Kulturarv: navn;Naturmiljø og -ressurser: navn;Mobilitetsplanlegger: navn;ROS-analyser: navn;Støy: navn;Geologi: navn;Konstruksjon: navn;Elektro: navn;Drift og vedlikehold: navn;Lurftforurensing: navn;Byggeleder: navn;Geoteknikk: navn</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Prosjektere</pnp:DataValue>
@@ -562,7 +562,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">490</pnp:DataValue>
       <pnp:DataValue FieldName="Title">15 Tilstandsregistrering av bygg og konstruksjoner</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Sprengningsarbeid, spunting, peling, usikre grunnforhold, usikker fundamentering, dype grøfter tett inntil bygg. Dette bør utføres av en nøytral 3.person hvor det foreligger en rapport man kan bruke som basis dersom grunneier mener hus/eiendom er påført skade pga anleggsarbeidene. Det er mange, mange prosjekt hvor det ikke er aktuelt, men i bynære strøk kan det være veldig viktig.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Sprengningsarbeid, spunting, peling, usikre grunnforhold, usikker fundamentering, dype grøfter tett inntil bygg. Dette bør utføres av en nøytral tredjeperson hvor det foreligger en rapport man kan bruke som basis dersom grunneier mener hus/eiendom er påført skade pga anleggsarbeidene. Det er mange, mange prosjekt hvor det ikke er aktuelt, men i bynære strøk kan det være veldig viktig.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Prosjektere</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Prosjektere</pnp:DataValue>
@@ -716,7 +716,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">630</pnp:DataValue>
       <pnp:DataValue FieldName="Title">05 Prosjektgruppen</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Jevnlig oppdatering av organisasjonskartet. Fyll inn navn i sjekklisten under. Evt. kan det lages et vedlegg som oppdateres jevnlig</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Jevnlig oppdatering av organisasjonskartet. Fyll inn navn i sjekklisten under. Ev. kan det lages et vedlegg som oppdateres jevnlig</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Prosjektleder: navn;Byggeleder 1: navn;Byggeleder 2: navn;Kontrollingeniør 1: navn;Kontrollingeniør 2: navn;Nabokontakt: navn;Grunnerverv: navn;Natur og miljø: navn;Drift og vedlikehold veg: navn;Drift og vedlikehold elektro: navn;Drift og vedlikehold konstruksjon: navn</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Løpende oppgave;Bygge</pnp:DataValue>
@@ -760,7 +760,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">670</pnp:DataValue>
       <pnp:DataValue FieldName="Title">09 Utpeke SHA-koordinator</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Det skal lages en skriftlig avtale mellom byggherren og en utvalgt SHA-koordinator som skal ivareta dette gjennom byggefasen.Se byggherreforskriften §13</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Det skal lages en skriftlig avtale mellom byggherren og en utvalgt SHA-koordinator som skal ivareta dette gjennom byggefasen. Se byggherreforskriften §13</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Bygge</pnp:DataValue>
@@ -782,7 +782,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">690</pnp:DataValue>
       <pnp:DataValue FieldName="Title">11 Oppdatere kvalitetsplan</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Oppdatere plan utarbeidet i tidligere faser.SHA- og YM-plan skal nå fungere som egne, selvstendige dokument.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Oppdatere plan utarbeidet i tidligere faser. SHA- og YM-plan skal nå fungere som egne, selvstendige dokument.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist">Rutiner;Kontrollplan;Sjekklister</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
@@ -828,7 +828,7 @@
       <pnp:DataValue FieldName="Title">15 Lage møteplan for prosjektet</pnp:DataValue>
       <pnp:DataValue FieldName="GtDescription">Sjekk krav i kontrakten. Prosjekteringsmøte gjennomføres ved totalentreprise.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Bygge</pnp:DataValue>
-      <pnp:DataValue FieldName="GtChecklist">Byggemøter;Økonomimøter;Samarbeidsmøter;Andre møter;Evt. prosjekteringsmøter</pnp:DataValue>
+      <pnp:DataValue FieldName="GtChecklist">Byggemøter;Økonomimøter;Samarbeidsmøter;Andre møter;Ev. prosjekteringsmøter</pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">Bygge</pnp:DataValue>
       <pnp:DataValue FieldName="GtAttachments"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerPreviewType">Sjekkliste (checklist)</pnp:DataValue>
@@ -947,7 +947,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">840</pnp:DataValue>
       <pnp:DataValue FieldName="Title">06 Oppdatert dokumentasjon på elektro</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Elektro - Plania - dokumentasjon og  godkjenning fra 3.part</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Elektro - Plania - dokumentasjon og godkjenning fra tredjepart</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Avslutte</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
@@ -991,7 +991,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">880</pnp:DataValue>
       <pnp:DataValue FieldName="Title">10 Oppdatert NVDB</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Alle objekter skal være registrert/målt inn/fjernet iht retningslinjer.Det skal ikke gjennomføres ferdigbefaring/overlevering til DV før all registreringen er gjort.Skal være registrert fra Datafangst til NVDB - liste med endring skal overleveres DV 2 uker før befaring ved oppgraderingsprosjekter. Det skal gjøres tilknytning til alle relevante DV-kontraktsområder i NVDB, (men det er kun vegnett som tilhører Rogfk skal registreres på våre driftskontrakter).DV skal ha informasjon om omfang før ferdigbefaring, slik at driftsentreprenør kan være klar til overta driftsansvar ved signert overtakelsesprotokoll. Strekket skal registreres med tilhørende driftskontrakter (f.eks dk og el), og avklart vinterdriftsklasse og renholdsfrekvens. Kravene må avklares med drift</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Alle objekter skal være registrert/målt inn/fjernet iht retningslinjer. Det skal ikke gjennomføres ferdigbefaring/overlevering til DV før all registreringen er gjort. Skal være registrert fra Datafangst til NVDB - liste med endring skal overleveres DV 2 uker før befaring ved oppgraderingsprosjekter. Det skal gjøres tilknytning til alle relevante DV-kontraktsområder i NVDB. DV skal ha informasjon om omfang før ferdigbefaring, slik at driftsentreprenør kan være klar til overta driftsansvar ved signert overtakelsesprotokoll. Strekket skal registreres med tilhørende driftskontrakter (f.eks dk og el), og avklart vinterdriftsklasse og renholdsfrekvens. Kravene må avklares med drift</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Avslutte</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
@@ -1013,7 +1013,7 @@
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">900</pnp:DataValue>
       <pnp:DataValue FieldName="Title">12 Overtakelse av ansvar til DV</pnp:DataValue>
-      <pnp:DataValue FieldName="GtDescription">Hva er behovet for befaring? Hvordan skal avvik fra DV håndteres av PU prosjekt.Det skal signeres  Overtakelsesprotokoll fra PU til DV. Dette er ikke den samme protokollen som signeres fra Utbygger entreprenør til PU.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Hva er behovet for befaring? Hvordan skal avvik fra DV håndteres av PU prosjekt. Det skal signeres Overtakelsesprotokoll fra PU til DV. Dette er ikke den samme protokollen som signeres fra Utbygger entreprenør til PU.</pnp:DataValue>
       <pnp:DataValue FieldName="GtCategory">Avslutte</pnp:DataValue>
       <pnp:DataValue FieldName="GtChecklist"></pnp:DataValue>
       <pnp:DataValue FieldName="GtPlannerTags">KRAV;Avslutte - til drift</pnp:DataValue>
