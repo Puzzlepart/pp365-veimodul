@@ -5,7 +5,7 @@
       <pnp:DataValue FieldName="GtSortOrder">350</pnp:DataValue>
       <pnp:DataValue FieldName="Title">Planleggingsleder</pnp:DataValue>
       <pnp:DataValue FieldName="GtInternalName">GtVeiPlanningManager</pnp:DataValue>
-      <pnp:DataValue FieldName="GtManagedProperty"></pnp:DataValue>
+      <pnp:DataValue FieldName="GtManagedProperty">RefinableString80</pnp:DataValue>
       <pnp:DataValue FieldName="GtFieldDataType">User</pnp:DataValue>
       <pnp:DataValue FieldName="GtColMinWidth">100</pnp:DataValue>
       <pnp:DataValue FieldName="GtShowFieldProjectStatus">True</pnp:DataValue>
@@ -18,7 +18,7 @@
       <pnp:DataValue FieldName="GtSortOrder">340</pnp:DataValue>
       <pnp:DataValue FieldName="Title">Prosjekteringsleder</pnp:DataValue>
       <pnp:DataValue FieldName="GtInternalName">GtVeiProjectingManager</pnp:DataValue>
-      <pnp:DataValue FieldName="GtManagedProperty"></pnp:DataValue>
+      <pnp:DataValue FieldName="GtManagedProperty">RefinableString81</pnp:DataValue>
       <pnp:DataValue FieldName="GtFieldDataType">User</pnp:DataValue>
       <pnp:DataValue FieldName="GtColMinWidth">100</pnp:DataValue>
       <pnp:DataValue FieldName="GtShowFieldProjectStatus">True</pnp:DataValue>
@@ -31,7 +31,7 @@
       <pnp:DataValue FieldName="GtSortOrder">360</pnp:DataValue>
       <pnp:DataValue FieldName="Title">Byggeleder</pnp:DataValue>
       <pnp:DataValue FieldName="GtInternalName">GtVeiConstructionManager</pnp:DataValue>
-      <pnp:DataValue FieldName="GtManagedProperty"></pnp:DataValue>
+      <pnp:DataValue FieldName="GtManagedProperty">RefinableString82</pnp:DataValue>
       <pnp:DataValue FieldName="GtFieldDataType">User</pnp:DataValue>
       <pnp:DataValue FieldName="GtColMinWidth">100</pnp:DataValue>
       <pnp:DataValue FieldName="GtShowFieldProjectStatus">True</pnp:DataValue>
