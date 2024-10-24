@@ -3,6 +3,8 @@ Param(
   [string]$Url,
   [Parameter(Mandatory = $false, HelpMessage = "Skip search configuration")]
   [switch]$SkipSearchConfiguration,
+  [Parameter(Mandatory = $false, HelpMessage = "Client ID of the Entra Id application used for interactive logins. Defaults to the multi-tenant Prosjektportalen app")]
+  [string]$ClientId = "da6c31a6-b557-4ac3-9994-7315da06ea3a",
   [Parameter(Mandatory = $false, HelpMessage = "Do you want to perform an upgrade?")]
   [switch]$Upgrade
 )
@@ -25,8 +27,6 @@ function EndAction() {
   Write-Host "Completed in $($ElapsedSeconds)s" -ForegroundColor Green
 }
 
-## TODO: Create install script
-
 #region Setting variables based on input from user
 [System.Uri]$Uri = $Url.TrimEnd('/')
 $ManagedPath = $Uri.Segments[1]
@@ -38,10 +38,10 @@ $TemplatesBasePath = "$PSScriptRoot/Templates"
 Set-PnPTraceLog -Off
 
 # TODO: Replace version from package.json/git-tag
-Write-Host "Installing Prosjektportalen veimodul version 1.0.0" -ForegroundColor Cyan
+Write-Host "Installing Prosjektportalen veimodul version 1.1.2" -ForegroundColor Cyan
 
 #region Print installation user
-Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ErrorAction Stop -WarningAction Ignore
+Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ClientId $ClientId -ErrorAction Stop -WarningAction Ignore
 $CurrentUser = Get-PnPProperty -Property CurrentUser -ClientObject (Get-PnPContext).Web
 Write-Host "[INFO] Installing with user [$($CurrentUser.Email)]"
 #endregion
@@ -50,7 +50,7 @@ Write-Host "[INFO] Installing with user [$($CurrentUser.Email)]"
 if (-not $SkipSearchConfiguration.IsPresent) {
   StartAction("Uploading search configuration")
   Try {
-    Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ErrorAction Stop -WarningAction Ignore
+    Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ClientId $ClientId -ErrorAction Stop -WarningAction Ignore
     Set-PnPSearchConfiguration -Scope Subscription -Path "$PSScriptRoot/SearchConfiguration.xml" -ErrorAction SilentlyContinue
     EndAction
   }
@@ -64,7 +64,7 @@ if (-not $SkipSearchConfiguration.IsPresent) {
 
 #region Apply Template
 StartAction("Applying veimodul template")
-Connect-PnPOnline -Url $Url -Interactive -ErrorAction Stop
+Connect-PnPOnline -Url $Url -Interactive -ClientId $ClientId -ErrorAction Stop
 Invoke-PnPSiteTemplate -Path "$($TemplatesBasePath)/veimodul.pnp" -ErrorAction Stop -WarningAction Ignore
 EndAction
 #endregion
@@ -73,7 +73,7 @@ EndAction
 StartAction("Configuring tillegg and standardinnhold")
 try {
 
-  Connect-PnPOnline -Url $Url -Interactive -ErrorAction Stop
+  Connect-PnPOnline -Url $Url -Interactive -ClientId $ClientId -ErrorAction Stop
 
   $ListContent = Get-PnPListItem -List Listeinnhold
   $Prosjekttillegg = Get-PnPListItem -List Prosjekttillegg
@@ -109,14 +109,14 @@ EndAction
 
 #region Logging installation
 Write-Host "[INFO] Logging installation entry" 
-Connect-PnPOnline -Url $Url -Interactive -ErrorAction Stop
+Connect-PnPOnline -Url $Url -Interactive -ClientId $ClientId -ErrorAction Stop
 $LastInstall = Get-PnPListItem -List "Installasjonslogg" -Query "<View><Query><OrderBy><FieldRef Name='Created' Ascending='False' /></OrderBy></Query></View>" | Select-Object -First 1 -Wait
 $PreviousVersion = "N/A"
 if ($null -ne $LastInstall) {
   $PreviousVersion = $LastInstall.FieldValues["InstallVersion"]
 }
 # TODO: Replace version from package.json/git-tag
-$CustomizationInfo = "Prosjektportalen veimodul 1.0.0"
+$CustomizationInfo = "Prosjektportalen veimodul 1.1.2"
 $InstallStartTime = (Get-Date -Format o)
 $InstallEndTime = (Get-Date -Format o)
 
