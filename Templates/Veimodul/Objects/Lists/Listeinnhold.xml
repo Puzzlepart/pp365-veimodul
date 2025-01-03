@@ -1,4 +1,12 @@
-<pnp:ListInstance Title="Listeinnhold" Description="" DocumentTemplate="" TemplateType="100" Url="Lists/Listeinnhold" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="5000" DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100" ContentTypesEnabled="true" Hidden="true" EnableAttachments="false" EnableFolderCreation="false" DefaultDisplayFormUrl="{site}/Lists/Listeinnhold/DispForm.aspx" DefaultEditFormUrl="{site}/Lists/Listeinnhold/EditForm.aspx" DefaultNewFormUrl="{site}/Lists/Listeinnhold/NewForm.aspx" ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false" IsApplicationList="false" ValidationFormula="" ValidationMessage=""
+<pnp:ListInstance Title="Listeinnhold" Description="" DocumentTemplate="" TemplateType="100"
+  Url="Lists/Listeinnhold" EnableVersioning="true" MinorVersionLimit="0" MaxVersionLimit="5000"
+  DraftVersionVisibility="0" TemplateFeatureID="00bfea71-de22-43b2-a848-c05709900100"
+  ContentTypesEnabled="true" Hidden="true" EnableAttachments="false" EnableFolderCreation="false"
+  DefaultDisplayFormUrl="{site}/Lists/Listeinnhold/DispForm.aspx"
+  DefaultEditFormUrl="{site}/Lists/Listeinnhold/EditForm.aspx"
+  DefaultNewFormUrl="{site}/Lists/Listeinnhold/NewForm.aspx"
+  ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false"
+  IsApplicationList="false" ValidationFormula="" ValidationMessage=""
   xmlns:pnp="http://schemas.dev.office.com/PnP/2021/03/ProvisioningSchema">
   <pnp:DataRows KeyColumn="Title" UpdateBehavior="Overwrite">
     <pnp:DataRow>
@@ -18,16 +26,16 @@
       <pnp:DataValue FieldName="GtLccFields">-</pnp:DataValue>
       <pnp:DataValue FieldName="GtLccDefault">0</pnp:DataValue>
       <pnp:DataValue FieldName="GtLccHidden">0</pnp:DataValue>
-    <pnp:DataValue FieldName="GtPlannerName">Veiplan</pnp:DataValue>
+      <pnp:DataValue FieldName="GtPlannerName">Veiplan</pnp:DataValue>
     </pnp:DataRow>
     <pnp:DataRow>
-        <pnp:DataValue FieldName="Title">Standarddokumenter Vei</pnp:DataValue>
-        <pnp:DataValue FieldName="GtDescription">Standarddokumenter for veiprosjekter.</pnp:DataValue>
-        <pnp:DataValue FieldName="GtLccSourceList">Standarddokumenter Vei</pnp:DataValue>
-        <pnp:DataValue FieldName="GtLccDestinationList">Dokumenter</pnp:DataValue>
-        <pnp:DataValue FieldName="GtLccFields">Title,GtProjectPhase,</pnp:DataValue>
-        <pnp:DataValue FieldName="GtLccDefault">0</pnp:DataValue>
-        <pnp:DataValue FieldName="GtLccHidden">0</pnp:DataValue>
+      <pnp:DataValue FieldName="Title">Standarddokumenter Vei</pnp:DataValue>
+      <pnp:DataValue FieldName="GtDescription">Standarddokumenter for veiprosjekter.</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccSourceList">Standarddokumenter Vei</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccDestinationList">Dokumenter</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccFields">Title,GtProjectPhase,</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccDefault">0</pnp:DataValue>
+      <pnp:DataValue FieldName="GtLccHidden">0</pnp:DataValue>
     </pnp:DataRow>
   </pnp:DataRows>
 </pnp:ListInstance>
