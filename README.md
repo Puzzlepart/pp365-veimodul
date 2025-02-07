@@ -22,7 +22,7 @@ Forutsetninger:
 - Du er Term Store Administrator (pga. nye termer)
 - Du er SharePoint Administrator (pga. søkekonfigurasjon)
 
-Denne pakken kommer ikke bundlet med PnP.PowerShell. Vi anbefaler sterkt å installere med samme versjon som kommer med Prosjektportalen 365, som per 21.12.2023 er PnP.PowerShell 1.11.0.
+Denne pakken kommer ikke bundlet med PnP.PowerShell. Vi anbefaler sterkt å installere med samme versjon som kommer med Prosjektportalen 365, som per 07.02.2025 er 1.12.0
 
 1. Last ned release-pakken fra releases og pakk ut pakken lokalt
 2. Kjør Install.ps1 med -Url parameter til din Prosjektportalen-installasjon (PP365 må være installert på forhånd)
