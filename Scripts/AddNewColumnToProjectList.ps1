@@ -52,7 +52,6 @@ try {
             }            
         }
         
-        Pause
         $i = 0
         $SitesToProcess | ForEach-Object {
             $i = $i + 1
@@ -65,12 +64,20 @@ try {
             try {
                 Connect-PnPOnline -Url $TargetUrl -Interactive -ClientId da6c31a6-b557-4ac3-9994-7315da06ea3a
 
-                $List = Get-PnPList -Identity "XXX" -ErrorAction SilentlyContinue
+                $List = Get-PnPList -Identity "Beslutningslogg" -ErrorAction SilentlyContinue
                 if ($null -ne $List) {
-                    # DO STUFF
+                    $GtcPhaseProjectXml = '<Field ID="{e250dc6a-a894-4a34-b82d-4cb386bd941f}" DisplayName="Fase i prosjekt" Name="GtcPhaseProject" Type="Choice" Group="Kolonner for Prosjektportalen (Prosjekt)" Description="Legg in fase beslutningen er gjort i" FillInChoice="FALSE" StaticName="GtcPhaseProject"><Default>Utrede</Default><CHOICES><CHOICE>Utrede</CHOICE><CHOICE>Reguleringsplan</CHOICE><CHOICE>Byggeplan</CHOICE><CHOICE>Bygge</CHOICE><CHOICE>Overlevere DOV</CHOICE></CHOICES></Field>'
+                    $GtcPhaseProject = Add-PnPFieldFromXml -FieldXml $GtcPhaseProjectXml
+                    
+                    Add-PnPFieldToContentType -Field "GtcPhaseProject" -ContentType "Prosjektloggelement"
+                    
+                    $View = Get-PnPView -List "Beslutningslogg" -Identity "Alle elementer"
+                    $View.ViewFields.Add("GtcPhaseProject")
+                    $View.Update()
+                    Invoke-PnPQuery
                 }
                 else {
-                    Write-Host "`tListen XXX finnes ikke på $TargetUrl" -ForegroundColor Yellow
+                    Write-Host "`tListen Beslutningslogg finnes ikke på $TargetUrl" -ForegroundColor Yellow
                 }
 
             }
