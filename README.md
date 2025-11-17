@@ -2,7 +2,7 @@
 
 [![version](https://img.shields.io/badge/version-1.1.3-green.svg)](https://semver.org)
 
-Veimodulen for Prosjektportalen er en samling komponenter som sammen utgjør en mal for veiprosjekter. Veimodulen er blitt utarbeidet av Rogaland fylkeskommune, og Puzzlepart har bistått i å ekstrahere tilpasningene som mal for deling på GitHub. Videre forvaltning vil gjøres primært av Puzzlepart, og vi ønsker innspill på innholdet i malen. For spørsmål og innspill, logg gjerne en issue i dette området på GitHub eller send oss en e-post på <prosjektportalen@puzzlepart.com>.
+Veimodulen for Prosjektportalen er en samling komponenter som sammen utgjør en mal for veiprosjekter. Veimodulen er blitt utarbeidet av Rogaland fylkeskommune, og Puzzlepart - nå Crayon Consulting - har bistått i å ekstrahere tilpasningene som mal for deling på GitHub. Videre forvaltning vil gjøres primært av Crayon Consulting. Vi tar gledelig imot spørsmål og innspill, logg gjerne en issue i dette området på GitHub eller send oss en e-post på <tarjei.ormestoyl@crayon.no>.
 
 Veimodulen installeres som et tillegg til Prosjektportalen. Ved å installere veimodulen vil man få følgende satt opp i porteføljeområdet
 
