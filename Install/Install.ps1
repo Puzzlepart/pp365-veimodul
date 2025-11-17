@@ -43,8 +43,7 @@ if ($null -eq (Get-Command Connect-PnPOnline) -or (Get-Command Connect-PnPOnline
 $LogFilePath = "$PSScriptRoot/Install_Log_$([datetime]::Now.ToString("yy-MM-ddThh-mm-ss")).txt"
 Start-PnPTraceLog -Path $LogFilePath -Level Debug
 
-# TODO: Replace version from package.json/git-tag
-Write-Host "Installing Prosjektportalen veimodul version 1.1.3" -ForegroundColor Cyan
+Write-Host "Installing Prosjektportalen veimodul version {{VERSION}}" -ForegroundColor Cyan
 
 #region Print installation user
 Connect-PnPOnline -Url $AdminSiteUrl -ClientId $ClientId -ErrorAction Stop -WarningAction Ignore
@@ -107,10 +106,10 @@ try {
   }
 }
 catch {
-  EndAction
   Write-Host "[WARNING] Failed to configure tillegg and standardinnhold: $($_.Exception.Message)" -ForegroundColor Yellow
+} finally {
+  EndAction
 }
-EndAction
 #endregion
 
 #region Logging installation
@@ -118,11 +117,12 @@ Write-Host "[INFO] Logging installation entry"
 Connect-PnPOnline -Url $Url -ClientId $ClientId -ErrorAction Stop
 $LastInstall = Get-PnPListItem -List "Installasjonslogg" -Query "<View><Query><OrderBy><FieldRef Name='Created' Ascending='False' /></OrderBy></Query></View>" | Select-Object -First 1 -Wait
 $PreviousVersion = "N/A"
+$PreviousChannel = "main"
 if ($null -ne $LastInstall) {
   $PreviousVersion = $LastInstall.FieldValues["InstallVersion"]
+  $PreviousChannel = $LastInstall.FieldValues["InstallChannel"]
 }
-# TODO: Replace version from package.json/git-tag
-$CustomizationInfo = "Prosjektportalen veimodul 1.1.2"
+$CustomizationInfo = "Prosjektportalen veimodul {{VERSION}}"
 $InstallStartTime = (Get-Date -Format o)
 $InstallEndTime = (Get-Date -Format o)
 
@@ -131,6 +131,7 @@ $InstallEntry = @{
   InstallStartTime = $InstallStartTime; 
   InstallEndTime   = $InstallEndTime; 
   InstallVersion   = $PreviousVersion;
+  InstallChannel   = $PreviousChannel;
   InstallCommand   = $MyInvocation.Line.Substring(2);
 }
 
@@ -139,7 +140,7 @@ if ($null -ne $CurrentUser.Email) {
 }
 
 ## Logging installation to SharePoint list
-Add-PnPListItem -List "Installasjonslogg" -Values $InstallEntry -ErrorAction SilentlyContinue >$null 2>&1
+$InstallLogOutput = Add-PnPListItem -List "Installasjonslogg" -Values $InstallEntry -ErrorAction SilentlyContinue
 
 #endregion
 

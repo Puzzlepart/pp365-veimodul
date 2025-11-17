@@ -34,15 +34,13 @@ $ROOT_PATH = "$PSScriptRoot/.."
 $PNP_TEMPLATES_BASEPATH = "$ROOT_PATH/Templates"
 $GIT_HASH = git log --pretty=format:'%h' -n 1
 
-# TODO: Replace version from central location
-$RELEASE_NAME = "pp365-veimodul-1.1.2.$($GIT_HASH)"
-if ($USE_CHANNEL_CONFIG) {
-    $RELEASE_NAME = "$($RELEASE_NAME)"
-}
+$PACKAGE_JSON = Get-Content "$ROOT_PATH/package.json" | ConvertFrom-Json
+$VERSION = $PACKAGE_JSON.version
+$RELEASE_NAME = "pp365-veimodul-$VERSION"
 $RELEASE_PATH = "$ROOT_PATH/release/$($RELEASE_NAME)"
 #endregion
 
-Write-Host "[Building release $RELEASE_NAME]" -ForegroundColor Cyan
+Write-Host "Building release $RELEASE_NAME" -ForegroundColor Cyan
 
 #region Creating release folder
 $RELEASE_FOLDER = New-Item -Path "$RELEASE_PATH" -ItemType Directory -Force
@@ -64,11 +62,18 @@ StartAction("Copying Install.ps1 and script source files")
 
 Copy-Item -Path "$PSScriptRoot/Install.ps1" -Destination $RELEASE_PATH -Force
 Copy-Item -Path "$PSScriptRoot/SearchConfiguration.xml" -Destination $RELEASE_PATH -Force
+
+# Replace version placeholder in Install.ps1
+$InstallScriptPath = "$RELEASE_PATH/Install.ps1"
+$InstallScriptContent = Get-Content $InstallScriptPath -Raw
+$InstallScriptContent = $InstallScriptContent -replace '\{\{VERSION\}\}', $VERSION
+Set-Content -Path $InstallScriptPath -Value $InstallScriptContent -NoNewline
+
 EndAction
 #endregion
 
 #region Compressing release to a zip file
-rimraf "$($RELEASE_PATH).zip"
+Remove-Item -Path "$($RELEASE_PATH).zip" -Force -ErrorAction SilentlyContinue
 Add-Type -Assembly "System.IO.Compression.FileSystem"
 [IO.Compression.ZipFile]::CreateFromDirectory($RELEASE_PATH, "$($RELEASE_PATH).zip")  
 $StopWatch.Stop()
