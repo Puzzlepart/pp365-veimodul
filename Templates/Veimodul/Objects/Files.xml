@@ -3,8 +3,8 @@
         <pnp:Properties>
             <pnp:Property Key="Title" Value="Veimal" />
             <pnp:Property Key="GtDescription" Value="Tilpasninger for veiprosjekter" />
-            <pnp:Property Key="GtExtensionDefault" Value="1" />
-            <pnp:Property Key="GtExtensionHidden" Value="0" />
+            <pnp:Property Key="GtExtensionDefault" Value="0" />
+            <pnp:Property Key="GtExtensionHidden" Value="1" />
             <pnp:Property Key="GtExtensionLocked" Value="0" />
         </pnp:Properties>
     </pnp:File>
