@@ -1,10 +1,10 @@
 # Veimodulen for Prosjektportalen
 
-[![version](https://img.shields.io/badge/version-1.1.1-green.svg)](https://semver.org)
+[![version](https://img.shields.io/badge/version-1.1.3-green.svg)](https://semver.org)
 
 Veimodulen for Prosjektportalen er en samling komponenter som sammen utgjør en mal for veiprosjekter. Veimodulen er blitt utarbeidet av Rogaland fylkeskommune, og Puzzlepart har bistått i å ekstrahere tilpasningene som mal for deling på GitHub. Videre forvaltning vil gjøres primært av Puzzlepart, og vi ønsker innspill på innholdet i malen. For spørsmål og innspill, logg gjerne en issue i dette området på GitHub eller send oss en e-post på <prosjektportalen@puzzlepart.com>.
 
-Veimodulen installeres som et tillegg til Prosjektportalen 365. Ved å installere veimodulen vil man få følgende satt opp i porteføljeområdet
+Veimodulen installeres som et tillegg til Prosjektportalen. Ved å installere veimodulen vil man få følgende satt opp i porteføljeområdet
 
 1. En ny prosjektmal `Veiprosjekt` som man kan bruke som mal for nye prosjekter
 2. En ny fasesjekkliste `Fasesjekkliste Vei` med egne fasesjekkpunkter for veiprosjekter. Fasesjekklisten har også ny kolonne `Forankret i` for å indikere hvor fasesjekkpunktet er forankret
@@ -18,18 +18,24 @@ Veimodulen installeres som et tillegg til Prosjektportalen 365. Ved å installer
 
 Forutsetninger:
 
-- Du har installert Prosjektportalen 365 på et område
+- Du har installert Prosjektportalen på et område og brukeren du installerer med er eier der
 - Du er Term Store Administrator (pga. nye termer)
 - Du er SharePoint Administrator (pga. søkekonfigurasjon)
 
-Denne pakken kommer ikke bundlet med PnP.PowerShell. Vi anbefaler sterkt å installere med samme versjon som kommer med Prosjektportalen 365, som per 07.02.2025 er 1.12.0
+Denne pakken kommer ikke bundlet med PnP.PowerShell. Vi anbefaler sterkt å installere med samme versjon som kommer med Prosjektportalen, som per 17.11.2025 er 3.1.0
 
 1. Last ned release-pakken fra releases og pakk ut pakken lokalt
-2. Kjør Install.ps1 med -Url parameter til din Prosjektportalen-installasjon (PP365 må være installert på forhånd)
+2. Kjør Install.ps1 med -Url parameter til din Prosjektportalen-installasjon (Prosjektportalen må være installert på forhånd)
 3. Du kan nå opprette nye prosjekter og velge malen som heter `Veiprosjekt`
 
-Eksempel:
+### Eksempel på installasjon
 
 ```pwsh
-.\Install.ps1 -Url https://puzzlepart.sharepoint.com/sites/ppveimodul
+.\Install.ps1 -Url https://prosjektportalen.sharepoint.com/sites/ppveimodul
+```
+
+### Eksempel på oppgradering
+
+```pwsh
+.\Install.ps1 -Url https://prosjektportalen.sharepoint.com/sites/ppveimodul -Upgrade
 ```

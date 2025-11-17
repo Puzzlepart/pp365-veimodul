@@ -35,13 +35,19 @@ $AdminSiteUrl = (@($Uri.Scheme, "://", $Uri.Authority) -join "").Replace(".share
 $TemplatesBasePath = "$PSScriptRoot/Templates"
 #endregion
 
-Set-PnPTraceLog -Off
+if ($null -eq (Get-Command Connect-PnPOnline) -or (Get-Command Connect-PnPOnline).Version -lt [version]"3.1.0") {
+    Write-Host "[ERROR] Correct PnP.PowerShell module not found. Please install it from PowerShell Gallery or do not use -SkipLoadingBundle." -ForegroundColor Red
+    exit 0
+}
+
+$LogFilePath = "$PSScriptRoot/Install_Log_$([datetime]::Now.ToString("yy-MM-ddThh-mm-ss")).txt"
+Start-PnPTraceLog -Path $LogFilePath -Level Debug
 
 # TODO: Replace version from package.json/git-tag
-Write-Host "Installing Prosjektportalen veimodul version 1.1.2" -ForegroundColor Cyan
+Write-Host "Installing Prosjektportalen veimodul version 1.1.3" -ForegroundColor Cyan
 
 #region Print installation user
-Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ClientId $ClientId -ErrorAction Stop -WarningAction Ignore
+Connect-PnPOnline -Url $AdminSiteUrl -ClientId $ClientId -ErrorAction Stop -WarningAction Ignore
 $CurrentUser = Get-PnPProperty -Property CurrentUser -ClientObject (Get-PnPContext).Web
 Write-Host "[INFO] Installing with user [$($CurrentUser.Email)]"
 #endregion
@@ -50,7 +56,7 @@ Write-Host "[INFO] Installing with user [$($CurrentUser.Email)]"
 if (-not $SkipSearchConfiguration.IsPresent) {
   StartAction("Uploading search configuration")
   Try {
-    Connect-PnPOnline -Url $AdminSiteUrl -Interactive -ClientId $ClientId -ErrorAction Stop -WarningAction Ignore
+    Connect-PnPOnline -Url $AdminSiteUrl -ClientId $ClientId -ErrorAction Stop -WarningAction Ignore
     Set-PnPSearchConfiguration -Scope Subscription -Path "$PSScriptRoot/SearchConfiguration.xml" -ErrorAction SilentlyContinue
     EndAction
   }
@@ -64,7 +70,7 @@ if (-not $SkipSearchConfiguration.IsPresent) {
 
 #region Apply Template
 StartAction("Applying veimodul template")
-Connect-PnPOnline -Url $Url -Interactive -ClientId $ClientId -ErrorAction Stop
+Connect-PnPOnline -Url $Url -ClientId $ClientId -ErrorAction Stop
 Invoke-PnPSiteTemplate -Path "$($TemplatesBasePath)/veimodul.pnp" -ErrorAction Stop -WarningAction Ignore
 EndAction
 #endregion
@@ -73,7 +79,7 @@ EndAction
 StartAction("Configuring tillegg and standardinnhold")
 try {
 
-  Connect-PnPOnline -Url $Url -Interactive -ClientId $ClientId -ErrorAction Stop
+  Connect-PnPOnline -Url $Url -ClientId $ClientId -ErrorAction Stop
 
   $ListContent = Get-PnPListItem -List Listeinnhold
   $Prosjekttillegg = Get-PnPListItem -List Prosjekttillegg
@@ -109,7 +115,7 @@ EndAction
 
 #region Logging installation
 Write-Host "[INFO] Logging installation entry" 
-Connect-PnPOnline -Url $Url -Interactive -ClientId $ClientId -ErrorAction Stop
+Connect-PnPOnline -Url $Url -ClientId $ClientId -ErrorAction Stop
 $LastInstall = Get-PnPListItem -List "Installasjonslogg" -Query "<View><Query><OrderBy><FieldRef Name='Created' Ascending='False' /></OrderBy></Query></View>" | Select-Object -First 1 -Wait
 $PreviousVersion = "N/A"
 if ($null -ne $LastInstall) {
