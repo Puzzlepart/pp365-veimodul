@@ -8,7 +8,7 @@
   ImageUrl="/_layouts/15/images/itgen.png?rev=47" IrmExpire="false" IrmReject="false"
   IsApplicationList="false" ValidationFormula="" ValidationMessage=""
   xmlns:pnp="http://schemas.dev.office.com/PnP/2021/03/ProvisioningSchema">
-  <pnp:DataRows KeyColumn="Title" UpdateBehavior="Overwrite">
+  <pnp:DataRows KeyColumn="Title" UpdateBehavior="Skip">
     <pnp:DataRow>
       <pnp:DataValue FieldName="Title">Fasesjekkpunkter Vei</pnp:DataValue>
       <pnp:DataValue FieldName="GtDescription">Fasesjekkpunkter for veiprosjekter</pnp:DataValue>

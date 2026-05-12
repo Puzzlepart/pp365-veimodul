@@ -47,7 +47,7 @@
             </Customization>
         </Field>
     </pnp:Fields>
-    <pnp:DataRows UpdateBehavior="Overwrite" KeyColumn="GtDataRowUniqueKey">
+    <pnp:DataRows UpdateBehavior="Overwrite" KeyColumn="Skip">
         <pnp:DataRow>
             <pnp:DataValue FieldName="Title">Opprette BIM kontakt</pnp:DataValue>
             <pnp:DataValue FieldName="GtProjectPhase">Planlegge|02abfd34-5d2d-4acb-b9e0-b76d3832ac9b</pnp:DataValue>

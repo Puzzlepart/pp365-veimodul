@@ -30,7 +30,7 @@
     <pnp:FieldRef ID="0e82c395-9ed9-43f9-871a-208215b18558" Name="GtSortOrder" DisplayName="Sorteringsrekkefølge" />
     <pnp:FieldRef ID="c70ca705-d503-4d3c-a28e-078e7d61c4c2" Name="GtDataRowUniqueKey" DisplayName="Unik datanøkkel" />
   </pnp:FieldRefs>
-  <pnp:DataRows KeyColumn="GtDataRowUniqueKey" UpdateBehavior="Overwrite">
+  <pnp:DataRows KeyColumn="GtDataRowUniqueKey" UpdateBehavior="Skip">
     <pnp:DataRow>
       <pnp:DataValue FieldName="GtSortOrder">10</pnp:DataValue>
       <pnp:DataValue FieldName="Title">01 Signert prosjektbestilling</pnp:DataValue>
